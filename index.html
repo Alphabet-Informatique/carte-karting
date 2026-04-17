@@ -77,9 +77,11 @@ body { margin:0; font-family:Arial; }
 
 // 📱 mobile
 const isMobile = window.innerWidth < 768;
-const initialZoom = isMobile ? 5 : 7;
 
-// 🇫🇷 zone France élargie
+// 🔥 zoom corrigé
+const initialZoom = isMobile ? 6 : 7;
+
+// 🇫🇷 zone élargie
 const franceBounds = [
   [40.5, -6.5],
   [52.5, 10.5]
@@ -89,7 +91,7 @@ const map = L.map('map', {
   maxBounds: franceBounds
 }).setView([46.6,2.5], initialZoom);
 
-// 🌍 fond OpenStreetMap FR
+// 🌍 fond FR
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution:'© OpenStreetMap'
 }).addTo(map);
@@ -108,7 +110,7 @@ L.polygon([
 function getKartIcon(color){
   return L.divIcon({
     html:`<div style="background:${color};border-radius:50%;padding:6px;">
-      <img src="kart.png" style="width:26px;">
+      <img src="./kart.png" style="width:26px;">
     </div>`,
     className:'',
     iconSize:[40,40],
@@ -138,7 +140,7 @@ function resetView(){
   map.setView([46.6,2.5], initialZoom);
 }
 
-// 📥 chargement JSON
+// 📥 JSON
 async function chargerLieux(){
   const res = await fetch('lieux.json');
   return await res.json();
@@ -200,14 +202,15 @@ searchBox.addEventListener("input", function(){
       resetView();
       selectedMarker = m;
 
-      map.setView(m.getLatLng(), 10);
+      // 🔥 zoom corrigé
+      map.setView(m.getLatLng(), isMobile ? 8 : 9);
 
       markers.forEach(x=>{
         if(x !== m) x.setOpacity(0.4);
       });
 
       halo = L.circle(m.getLatLng(),{
-        radius:5000,
+        radius:6000,
         color:"#0096ff",
         fillOpacity:0.1
       }).addTo(map);
@@ -223,18 +226,31 @@ searchBox.addEventListener("input", function(){
 
 });
 
-// 👁️ voir autour
+// 👁️ voir autour amélioré
 document.getElementById("voirAutour").onclick = function(){
 
   if(!selectedMarker) return;
 
-  map.setView(selectedMarker.getLatLng(), initialZoom);
+  // zoom doux
+  map.setView(selectedMarker.getLatLng(), isMobile ? 7 : 8);
 
-  markers.forEach(m=>m.setOpacity(1));
+  markers.forEach(m=>{
+    if(m === selectedMarker){
+      m.setOpacity(1);
+      if(m._icon) m._icon.style.transform = "scale(1.2)";
+    } else {
+      m.setOpacity(0.6);
+      if(m._icon) m._icon.style.transform = "scale(1)";
+    }
+  });
 
-  if(halo){
-    map.removeLayer(halo);
-    halo = null;
+  // garde le halo
+  if(!halo){
+    halo = L.circle(selectedMarker.getLatLng(),{
+      radius:8000,
+      color:"#0096ff",
+      fillOpacity:0.1
+    }).addTo(map);
   }
 };
 
