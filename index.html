@@ -10,65 +10,10 @@
 <style>
 body { margin:0; font-family:Arial; }
 #map { height:100vh; }
-
-.search-container {
-  position:absolute;
-  top:15px;
-  left:50%;
-  transform:translateX(-50%);
-  width:90%;
-  max-width:350px;
-  z-index:1000;
-}
-
-#searchBox {
-  width:100%;
-  padding:14px;
-  border-radius:25px;
-  border:none;
-  box-shadow:0 4px 15px rgba(0,0,0,0.2);
-}
-
-#suggestions {
-  margin-top:8px;
-  background:white;
-  border-radius:10px;
-  box-shadow:0 4px 15px rgba(0,0,0,0.2);
-  max-height:200px;
-  overflow:auto;
-}
-
-.suggestion {
-  padding:12px;
-  border-bottom:1px solid #eee;
-  cursor:pointer;
-}
-
-#voirAutour {
-  position:absolute;
-  bottom:25px;
-  left:50%;
-  transform:translateX(-50%);
-  background:#0096ff;
-  color:white;
-  border:none;
-  padding:14px 20px;
-  border-radius:25px;
-  cursor:pointer;
-  display:none;
-  z-index:2000;
-}
 </style>
 </head>
 
 <body>
-
-<div class="search-container">
-  <input type="text" id="searchBox" placeholder="Rechercher un karting ou une ville...">
-  <div id="suggestions"></div>
-</div>
-
-<button id="voirAutour">👁️ Voir autour</button>
 
 <div id="map"></div>
 
@@ -76,179 +21,56 @@ body { margin:0; font-family:Arial; }
 
 <script>
 
-// 📱 mobile
-const isMobile = window.innerWidth < 768;
-const initialZoom = isMobile ? 6 : 7;
+const map = L.map('map').setView([46.6,2.5], 6);
 
-// 🇫🇷 zone
-const franceBounds = [
-  [40.5, -6.5],
-  [52.5, 10.5]
-];
-
-const map = L.map('map', {
-  maxBounds: franceBounds
-}).setView([46.6,2.5], initialZoom);
-
-// 🌍 fond
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-
-// 🎭 masque
-L.polygon([
-  [[90,-180],[90,180],[-90,180],[-90,-180]],
-  [[52.5,-6.5],[52.5,10.5],[40.5,10.5],[40.5,-6.5]]
-],{
-  fillColor:"#000",
-  fillOpacity:0.25,
-  interactive:false
-}).addTo(map);
-
-// icône
-function getKartIcon(color){
-  return L.divIcon({
-    html:`<div style="background:${color};border-radius:50%;padding:6px;">
-      <img src="./kart.png" style="width:26px;">
-    </div>`,
-    className:'',
-    iconSize:[40,40],
-    iconAnchor:[20,40]
-  });
-}
+L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png').addTo(map);
 
 let markers = [];
-let halo = null;
-let selectedMarker = null;
 
-// reset
-function resetView(){
-  markers.forEach(m=>{
-    m.setOpacity(1);
-    if(m._icon) m._icon.style.transform="scale(1)";
-  });
-
-  if(halo){
-    map.removeLayer(halo);
-    halo = null;
-  }
-
-  selectedMarker = null;
-  document.getElementById("voirAutour").style.display = "none";
-
-  map.setView([46.6,2.5], initialZoom);
-}
-
-// JSON
+// 🔥 DEBUG JSON
 async function chargerLieux(){
-  const res = await fetch('lieux.json');
-  return await res.json();
+  try {
+    const res = await fetch('lieux.json');
+
+    console.log("STATUS FETCH :", res.status);
+
+    if(!res.ok){
+      throw new Error("Erreur chargement JSON");
+    }
+
+    const data = await res.json();
+    console.log("DATA JSON :", data);
+
+    return data;
+
+  } catch(e){
+    console.error("ERREUR JSON :", e);
+    alert("Erreur chargement lieux.json (voir console)");
+    return [];
+  }
 }
 
 // affichage
 async function afficherLieux(){
+
   const lieux = await chargerLieux();
+
+  console.log("NB LIEUX :", lieux.length);
 
   lieux.forEach(l=>{
     const lat = parseFloat(l.Latitude);
     const lng = parseFloat(l.Longitude);
+
+    console.log("POINT :", lat, lng);
+
     if(isNaN(lat) || isNaN(lng)) return;
 
-    const nom = (l.Nom || "").trim();
-    const ville = (l.Ville || "").trim();
-    const color = (l.Couleur || "#ffffff").trim();
-
-    const m = L.marker([lat,lng],{
-      icon:getKartIcon(color)
-    }).addTo(map);
-
-    m.bindTooltip(`<b>${nom}</b><br>${ville}`);
-
-    m.nom = nom.toLowerCase();
-    m.ville = ville.toLowerCase();
-
+    const m = L.marker([lat,lng]).addTo(map);
     markers.push(m);
   });
+
 }
 
-// recherche
-const searchBox = document.getElementById("searchBox");
-const suggestionsBox = document.getElementById("suggestions");
-
-searchBox.addEventListener("input", function(){
-
-  const search = this.value.toLowerCase().trim();
-  suggestionsBox.innerHTML = "";
-
-  if(search.length === 0){
-    resetView();
-    return;
-  }
-
-  if(search.length < 2) return;
-
-  const results = markers.filter(m =>
-    m.nom.includes(search) || m.ville.includes(search)
-  );
-
-  results.slice(0,5).forEach(m=>{
-    const div = document.createElement("div");
-    div.className="suggestion";
-    div.innerHTML = `<b>${m.nom}</b><br><small>${m.ville}</small>`;
-
-    div.onclick = () => {
-
-      resetView();
-      selectedMarker = m;
-
-      map.setView(m.getLatLng(), isMobile ? 8 : 9);
-
-      markers.forEach(x=>{
-        if(x !== m) x.setOpacity(0.4);
-      });
-
-      halo = L.circle(m.getLatLng(),{
-        radius:6000,
-        color:"#0096ff",
-        fillOpacity:0.1
-      }).addTo(map);
-
-      document.getElementById("voirAutour").style.display = "block";
-
-      suggestionsBox.innerHTML = "";
-      searchBox.value = m.nom;
-    };
-
-    suggestionsBox.appendChild(div);
-  });
-
-});
-
-// voir autour
-document.getElementById("voirAutour").onclick = function(){
-
-  if(!selectedMarker) return;
-
-  map.setView(selectedMarker.getLatLng(), isMobile ? 7 : 8);
-
-  markers.forEach(m=>{
-    if(m === selectedMarker){
-      m.setOpacity(1);
-      if(m._icon) m._icon.style.transform = "scale(1.2)";
-    } else {
-      m.setOpacity(0.6);
-      if(m._icon) m._icon.style.transform = "scale(1)";
-    }
-  });
-
-  if(!halo){
-    halo = L.circle(selectedMarker.getLatLng(),{
-      radius:8000,
-      color:"#0096ff",
-      fillOpacity:0.1
-    }).addTo(map);
-  }
-};
-
-// init
 afficherLieux();
 
 </script>
