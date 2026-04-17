@@ -60,6 +60,7 @@ body { margin:0; font-family:Arial; }
 }
 </style>
 </head>
+
 <body>
 
 <div class="search-container">
@@ -77,11 +78,9 @@ body { margin:0; font-family:Arial; }
 
 // 📱 mobile
 const isMobile = window.innerWidth < 768;
-
-// 🔥 zoom corrigé
 const initialZoom = isMobile ? 6 : 7;
 
-// 🇫🇷 zone élargie
+// 🇫🇷 zone
 const franceBounds = [
   [40.5, -6.5],
   [52.5, 10.5]
@@ -91,10 +90,8 @@ const map = L.map('map', {
   maxBounds: franceBounds
 }).setView([46.6,2.5], initialZoom);
 
-// 🌍 fond FR
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution:'© OpenStreetMap'
-}).addTo(map);
+// 🌍 fond
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 // 🎭 masque
 L.polygon([
@@ -106,7 +103,7 @@ L.polygon([
   interactive:false
 }).addTo(map);
 
-// icône kart
+// icône
 function getKartIcon(color){
   return L.divIcon({
     html:`<div style="background:${color};border-radius:50%;padding:6px;">
@@ -122,7 +119,7 @@ let markers = [];
 let halo = null;
 let selectedMarker = null;
 
-// 🔄 reset
+// reset
 function resetView(){
   markers.forEach(m=>{
     m.setOpacity(1);
@@ -140,13 +137,13 @@ function resetView(){
   map.setView([46.6,2.5], initialZoom);
 }
 
-// 📥 JSON
+// JSON
 async function chargerLieux(){
   const res = await fetch('lieux.json');
   return await res.json();
 }
 
-// 📍 affichage
+// affichage
 async function afficherLieux(){
   const lieux = await chargerLieux();
 
@@ -172,7 +169,7 @@ async function afficherLieux(){
   });
 }
 
-// 🔍 recherche
+// recherche
 const searchBox = document.getElementById("searchBox");
 const suggestionsBox = document.getElementById("suggestions");
 
@@ -202,7 +199,6 @@ searchBox.addEventListener("input", function(){
       resetView();
       selectedMarker = m;
 
-      // 🔥 zoom corrigé
       map.setView(m.getLatLng(), isMobile ? 8 : 9);
 
       markers.forEach(x=>{
@@ -226,12 +222,11 @@ searchBox.addEventListener("input", function(){
 
 });
 
-// 👁️ voir autour amélioré
+// voir autour
 document.getElementById("voirAutour").onclick = function(){
 
   if(!selectedMarker) return;
 
-  // zoom doux
   map.setView(selectedMarker.getLatLng(), isMobile ? 7 : 8);
 
   markers.forEach(m=>{
@@ -244,7 +239,6 @@ document.getElementById("voirAutour").onclick = function(){
     }
   });
 
-  // garde le halo
   if(!halo){
     halo = L.circle(selectedMarker.getLatLng(),{
       radius:8000,
@@ -254,7 +248,7 @@ document.getElementById("voirAutour").onclick = function(){
   }
 };
 
-// 🚀 init
+// init
 afficherLieux();
 
 </script>
