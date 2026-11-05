@@ -1,597 +1,4331 @@
 [
-  {
-    "Nom": " Only Kart ",
-    "Ville": " Dagneux ",
-    "CodePostal": 1120,
-    "Latitude": 45.850782,
-    "Longitude": 5.075112
-  },
-  {
-    "Nom": " E-Karting & Paintball du Revermont ",
-    "Ville": " Péronnas ",
-    "CodePostal": 1960,
-    "Latitude": 46.176221,
-    "Longitude": 5.200486
-  },
-  {
-    "Nom": " Fun Kart ",
-    "Ville": " Le Bar-sur-Loup ",
-    "CodePostal": 6620,
-    "Latitude": 43.697875,
-    "Longitude": 6.989825
-  },
-  {
-    "Nom": " Cannes Karting ",
-    "Ville": " Cannes ",
-    "CodePostal": 6400,
-    "Latitude": 43.555468,
-    "Longitude": 7.004585
-  },
-  {
-    "Nom": " Karting Douzy ",
-    "Ville": " Douzy ",
-    "CodePostal": 8140,
-    "Latitude": 49.671437,
-    "Longitude": 5.039211
-  },
-  {
-    "Nom": " Ardennes Karting ",
-    "Ville": " Douzy ",
-    "CodePostal": 8140,
-    "Latitude": 49.671437,
-    "Longitude": 5.039211
-  },
-  {
-    "Nom": " Circuit de Lissartel ",
-    "Ville": " Réquista ",
-    "CodePostal": 12170,
-    "Latitude": 44.035601,
-    "Longitude": 2.533862
-  },
-  {
-    "Nom": " Karting Indoor Provence ",
-    "Ville": "Marseille",
-    "CodePostal": 13000,
-    "Latitude": 43.192651,
-    "Longitude": 2.39562
-  },
-  {
-    "Nom": " K1 Speed ",
-    "Ville": " Hérouville-Saint-Clair ",
-    "CodePostal": 14200,
-    "Latitude": 49.203723,
-    "Longitude": -0.334757
-  },
-  {
-    "Nom": " Circuit de Caen ",
-    "Ville": " Démouville ",
-    "CodePostal": 14840,
-    "Latitude": 49.179056,
-    "Longitude": -0.269267
-  },
-  {
-    "Nom": " Bowling 868 ",
-    "Ville": " Bayeux ",
-    "CodePostal": 14400,
-    "Latitude": 49.278188,
-    "Longitude": -0.702334
-  },
-  {
-    "Nom": " Karting de Pers ",
-    "Ville": " Pers ",
-    "CodePostal": 15290,
-    "Latitude": 44.911621,
-    "Longitude": 2.221618
-  },
-  {
-    "Nom": " Circuit de Haute Saintonge ",
-    "Ville": " La Génétouze ",
-    "CodePostal": 17360,
-    "Latitude": 45.224914,
-    "Longitude": -0.056025
-  },
-  {
-    "Nom": " Karting de Kerlabo ",
-    "Ville": " Ploulec’h ",
-    "CodePostal": 22300,
-    "Latitude": 48.71714,
-    "Longitude": -3.500574
-  },
-  {
-    "Nom": " PYC Karting ",
-    "Ville": " Plérin ",
-    "CodePostal": 22190,
-    "Latitude": 48.547316,
-    "Longitude": -2.782476
-  },
-  {
-    "Nom": " MF Karting ",
-    "Ville": " Trégueux ",
-    "CodePostal": 22950,
-    "Latitude": 48.47876,
-    "Longitude": -2.749857
-  },
-  {
-    "Nom": " Bergerac Karting ",
-    "Ville": " Saint-Laurent-des-Vignes ",
-    "CodePostal": 24100,
-    "Latitude": 44.823136,
-    "Longitude": 0.450668
-  },
-  {
-    "Nom": " Karting des 3 Lacs ",
-    "Ville": " Piégut-Pluviers ",
-    "CodePostal": 24360,
-    "Latitude": 45.626799,
-    "Longitude": 0.70185
-  },
-  {
-    "Nom": " Karting de Chartres ",
-    "Ville": " Chartres ",
-    "CodePostal": 28000,
-    "Latitude": 48.446525,
-    "Longitude": 1.502286
-  },
-  {
-    "Nom": " BKE / GNPK ",
-    "Ville": " Brest ",
-    "CodePostal": 29200,
-    "Latitude": 48.406435,
-    "Longitude": -4.497736
-  },
-  {
-    "Nom": " Karting de Ploumoguer ",
-    "Ville": " Ploumoguer ",
-    "CodePostal": 29810,
-    "Latitude": 48.394943,
-    "Longitude": -4.710581
-  },
-  {
-    "Nom": " Alès Racing System ",
-    "Ville": " Alès ",
-    "CodePostal": 30100,
-    "Latitude": 44.125356,
-    "Longitude": 4.089242
-  },
-  {
-    "Nom": " Karting Montaudran ",
-    "Ville": " Toulouse ",
-    "CodePostal": 31400,
-    "Latitude": 43.589648,
-    "Longitude": 1.47056
-  },
-  {
-    "Nom": " Défi Kart ",
-    "Ville": " Toulouse ",
-    "CodePostal": 31100,
-    "Latitude": 43.604082,
-    "Longitude": 1.433805
-  },
-  {
-    "Nom": " Circuit Number One ",
-    "Ville": " Agde ",
-    "CodePostal": 34300,
-    "Latitude": 43.302779,
-    "Longitude": 3.484797
-  },
-  {
-    "Nom": " Loc Karting ",
-    "Ville": " Pérols ",
-    "CodePostal": 34470,
-    "Latitude": 43.567221,
-    "Longitude": 3.95229
-  },
-  {
-    "Nom": " BSO Karting ",
-    "Ville": " Caussiniojouls ",
-    "CodePostal": 34600,
-    "Latitude": 43.551497,
-    "Longitude": 3.15212
-  },
-  {
-    "Nom": " Karting de Sérignan ",
-    "Ville": " Sérignan ",
-    "CodePostal": 34410,
-    "Latitude": 43.264256,
-    "Longitude": 3.296132
-  },
-  {
-    "Nom": " Cap Karting ",
-    "Ville": " Melesse ",
-    "CodePostal": 35520,
-    "Latitude": 48.219365,
-    "Longitude": -1.688582
-  },
-  {
-    "Nom": " Rouah Kart ",
-    "Ville": " Rennes ",
-    "CodePostal": 35000,
-    "Latitude": 48.110899,
-    "Longitude": -1.68365
-  },
-  {
-    "Nom": " Circuit de Lohéac ",
-    "Ville": " Lohéac ",
-    "CodePostal": 35550,
-    "Latitude": 47.86977,
-    "Longitude": -1.88711
-  },
-  {
-    "Nom": " Tours Kart Indoor ",
-    "Ville": " Tours ",
-    "CodePostal": 37000,
-    "Latitude": 47.395476,
-    "Longitude": 0.695848
-  },
-  {
-    "Nom": " Blois FD ",
-    "Ville": " Blois ",
-    "CodePostal": 41000,
-    "Latitude": 47.581228,
-    "Longitude": 1.316533
-  },
-  {
-    "Nom": " Fast & Green Karting ",
-    "Ville": " Saint-Étienne ",
-    "CodePostal": 42000,
-    "Latitude": 45.430195,
-    "Longitude": 4.370045
-  },
-  {
-    "Nom": " Solokart ",
-    "Ville": " Plessé ",
-    "CodePostal": 44630,
-    "Latitude": 47.546488,
-    "Longitude": -1.888071
-  },
-  {
-    "Nom": " Sodikart ",
-    "Ville": " Sautron ",
-    "CodePostal": 44880,
-    "Latitude": 47.275287,
-    "Longitude": -1.679981
-  },
-  {
-    "Nom": " Sodikart ",
-    "Ville": " Saint-Herblain ",
-    "CodePostal": 44800,
-    "Latitude": 47.227082,
-    "Longitude": -1.625284
-  },
-  {
-    "Nom": " Fédération Française de Motocyclisme ",
-    "Ville": " Corcoué-sur-Logne ",
-    "CodePostal": 44650,
-    "Latitude": 46.957237,
-    "Longitude": -1.606814
-  },
-  {
-    "Nom": " City Kart ",
-    "Ville": " Saint-Sébastien-sur-Loire ",
-    "CodePostal": 44230,
-    "Latitude": 47.199355,
-    "Longitude": -1.502678
-  },
-  {
-    "Nom": " Kart Racer ",
-    "Ville": " Saran ",
-    "CodePostal": 45770,
-    "Latitude": 47.946923,
-    "Longitude": 1.875773
-  },
-  {
-    "Nom": " Fun Kart Brissac ",
-    "Ville": " Brissac ",
-    "CodePostal": 49320,
-    "Latitude": 47.349603,
-    "Longitude": -0.44335
-  },
-  {
-    "Nom": " Inwall Kart ",
-    "Ville": " Les Ponts-de-Cé ",
-    "CodePostal": 49130,
-    "Latitude": 47.42928,
-    "Longitude": -0.521967
-  },
-  {
-    "Nom": " La Briqueterie Karting ",
-    "Ville": " Angers ",
-    "CodePostal": 49000,
-    "Latitude": 47.467471,
-    "Longitude": -0.561615
-  },
-  {
-    "Nom": " Racing Kart JPR ",
-    "Ville": " Ostricourt ",
-    "CodePostal": 59162,
-    "Latitude": 50.45648,
-    "Longitude": 3.029941
-  },
-  {
-    "Nom": " DKS Motors ",
-    "Ville": " Rouvignies ",
-    "CodePostal": 59220,
-    "Latitude": 50.332646,
-    "Longitude": 3.448743
-  },
-  {
-    "Nom": " Karting Hazebrouck ",
-    "Ville": " Hazebrouck ",
-    "CodePostal": 59190,
-    "Latitude": 50.719443,
-    "Longitude": 2.531796
-  },
-  {
-    "Nom": " Loisiparc Karting ",
-    "Ville": " Maubeuge ",
-    "CodePostal": 59600,
-    "Latitude": 50.284569,
-    "Longitude": 3.965341
-  },
-  {
-    "Nom": " Beauvais FD ",
-    "Ville": " Beauvais ",
-    "CodePostal": 60000,
-    "Latitude": 49.439601,
-    "Longitude": 2.087703
-  },
-  {
-    "Nom": " Circuit de Croix-en-Ternois ",
-    "Ville": " Croix-en-Ternois ",
-    "CodePostal": 62130,
-    "Latitude": 50.382613,
-    "Longitude": 2.279108
-  },
-  {
-    "Nom": " Planet Karting ",
-    "Ville": " Saint-Martin-lez-Tatinghem ",
-    "CodePostal": 62500,
-    "Latitude": 50.754535,
-    "Longitude": 2.2261
-  },
-  {
-    "Nom": " KHUB Arras Karting ",
-    "Ville": " Sainte-Catherine ",
-    "CodePostal": 62223,
-    "Latitude": 50.308943,
-    "Longitude": 2.762502
-  },
-  {
-    "Nom": " Arras FD ",
-    "Ville": " Arras ",
-    "CodePostal": 62000,
-    "Latitude": 50.287896,
-    "Longitude": 2.768267
-  },
-  {
-    "Nom": " Karting Oberlin ",
-    "Ville": " Reichstett ",
-    "CodePostal": 67116,
-    "Latitude": 48.652489,
-    "Longitude": 7.751219
-  },
-  {
-    "Nom": " Strasbourg FD ",
-    "Ville": " Strasbourg ",
-    "CodePostal": 67000,
-    "Latitude": 48.579831,
-    "Longitude": 7.761454
-  },
-  {
-    "Nom": " Actua Organisation ",
-    "Ville": " Saint-Laurent-de-Mure ",
-    "CodePostal": 69720,
-    "Latitude": 45.681771,
-    "Longitude": 5.056161
-  },
-  {
-    "Nom": " Karting Lyon Bully ",
-    "Ville": " Bully ",
-    "CodePostal": 69210,
-    "Latitude": 45.86168,
-    "Longitude": 4.57762
-  },
-  {
-    "Nom": " Kart’In ",
-    "Ville": " Vénissieux ",
-    "CodePostal": 69200,
-    "Latitude": 45.707095,
-    "Longitude": 4.881379
-  },
-  {
-    "Nom": " Kart Innov ",
-    "Ville": " Lyon ",
-    "CodePostal": 69000,
-    "Latitude": 45.758,
-    "Longitude": 4.835
-  },
-  {
-    "Nom": " Park Events ",
-    "Ville": " Lyon ",
-    "CodePostal": 69000,
-    "Latitude": 45.758,
-    "Longitude": 4.835
-  },
-  {
-    "Nom": " CKB Karting ",
-    "Ville": " Autoreille ",
-    "CodePostal": 70700,
-    "Latitude": 47.368861,
-    "Longitude": 5.812852
-  },
-  {
-    "Nom": " 2KSL Karting ",
-    "Ville": "Mâcon",
-    "CodePostal": 71000,
-    "Latitude": 46.325859,
-    "Longitude": 4.810979
-  },
-  {
-    "Nom": " Speed Park ",
-    "Ville": " Le Mans ",
-    "CodePostal": 72000,
-    "Latitude": 47.993378,
-    "Longitude": 0.191169
-  },
-  {
-    "Nom": " Boca Speed ",
-    "Ville": " Moûtiers ",
-    "CodePostal": 73600,
-    "Latitude": 45.485221,
-    "Longitude": 6.531748
-  },
-  {
-    "Nom": " Luka’ring ",
-    "Ville": " Rouen ",
-    "CodePostal": 76000,
-    "Latitude": 49.440044,
-    "Longitude": 1.093912
-  },
-  {
-    "Nom": " Espace 76 ",
-    "Ville": " Tourville-la-Rivière ",
-    "CodePostal": 76410,
-    "Latitude": 49.328712,
-    "Longitude": 1.093722
-  },
-  {
-    "Nom": " ASK Kartland ",
-    "Ville": " Moissy-Cramayel ",
-    "CodePostal": 77550,
-    "Latitude": 48.625716,
-    "Longitude": 2.591478
-  },
-  {
-    "Nom": " SpeedPark ",
-    "Ville": " Servon ",
-    "CodePostal": 77170,
-    "Latitude": 48.713549,
-    "Longitude": 2.592945
-  },
-  {
-    "Nom": " City Bowling d’Oz ",
-    "Ville": " Ozoir-la-Ferrière ",
-    "CodePostal": 77330,
-    "Latitude": 48.767283,
-    "Longitude": 2.673278
-  },
-  {
-    "Nom": " Claye-Souilly FD ",
-    "Ville": " Claye-Souilly ",
-    "CodePostal": 77410,
-    "Latitude": 48.943181,
-    "Longitude": 2.668776
-  },
-  {
-    "Nom": " Brétigny FD ",
-    "Ville": " Brétigny-sur-Orge ",
-    "CodePostal": 91220,
-    "Latitude": 48.603562,
-    "Longitude": 2.296311
-  },
-  {
-    "Nom": " Circuit de Vaudoy-en-Brie ",
-    "Ville": " Vaudoy-en-Brie ",
-    "CodePostal": 77141,
-    "Latitude": 48.704034,
-    "Longitude": 3.093786
-  },
-  {
-    "Nom": " Les 3 Chênes ",
-    "Ville": " Usseau ",
-    "CodePostal": 79210,
-    "Latitude": 46.172506,
-    "Longitude": -0.579859
-  },
-  {
-    "Nom": " Karting Rouanet ",
-    "Ville": " Aiguefonde ",
-    "CodePostal": 81200,
-    "Latitude": 43.504788,
-    "Longitude": 2.329709
-  },
-  {
-    "Nom": " Circuit du Var ",
-    "Ville": " Le Luc ",
-    "CodePostal": 83340,
-    "Latitude": 43.388363,
-    "Longitude": 6.299819
-  },
-  {
-    "Nom": " Karting Brignoles ",
-    "Ville": " Brignoles ",
-    "CodePostal": 83170,
-    "Latitude": 43.405995,
-    "Longitude": 6.073657
-  },
-  {
-    "Nom": " Prokart ",
-    "Ville": "Toulon",
-    "CodePostal": 83000,
-    "Latitude": 43.136696,
-    "Longitude": 5.933796
-  },
-  {
-    "Nom": " Kart Extrême ",
-    "Ville": " Monteux ",
-    "CodePostal": 84170,
-    "Latitude": 44.029925,
-    "Longitude": 4.986176
-  },
-  {
-    "Nom": " Mecamax ",
-    "Ville": " L’Île-d’Olonne ",
-    "CodePostal": 85340,
-    "Latitude": 46.568271,
-    "Longitude": -1.77118
-  },
-  {
-    "Nom": " Speed Park ",
-    "Ville": " Brétigny-sur-Orge ",
-    "CodePostal": 91220,
-    "Latitude": 48.603562,
-    "Longitude": 2.296311
-  },
-  {
-    "Nom": " Smileworld ",
-    "Ville": " Malakoff ",
-    "CodePostal": 92240,
-    "Latitude": 48.81742,
-    "Longitude": 2.294086
-  },
-  {
-    "Nom": " Prokart ",
-    "Ville": " Figari ",
-    "CodePostal": 20114,
-    "Latitude": 41.510497,
-    "Longitude": 9.128562
-  },
-  {
-    "Nom": " Karting Antibes ",
-    "Ville": " Antibes ",
-    "CodePostal": 20114,
-    "Latitude": 43.583328,
-    "Longitude": 7.11667
-  },
-  {
-    "Nom": " Karting Nantes ",
-    "Ville": " Nantes ",
-    "CodePostal": 44000,
-    "Latitude": 47.216671,
-    "Longitude": -1.55
-  },
     {
-    "Nom": " Circuit La Ferté-Gaucher ",
-    "Ville": "  La Ferté-Gaucher ",
-    "CodePostal": 73320,
-    "Latitude": 48.783329,
-    "Longitude": 3.3
-  },
-  {
-    "Nom": " Circuit de Vendée ",
-    "Ville": "  La Roche-sur-Yon ",
-    "CodePostal": 85000,
-    "Latitude": 46.666672,
-    "Longitude": -1.43333
-  }
-  ]
+        "Nom":  "Actua Organisation (karting)",
+        "Ville":  "Saint-Laurent-de-Mure",
+        "CodePostal":  69720,
+        "Categorie":  "Karting",
+        "Latitude":  45.681771,
+        "Longitude":  5.056161,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bocaspeed",
+        "Ville":  "Moûtiers",
+        "CodePostal":  73600,
+        "Categorie":  "Karting",
+        "Latitude":  45.485221,
+        "Longitude":  6.531748,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Distrakart",
+        "Ville":  "Saint-Paulien",
+        "CodePostal":  43350,
+        "Categorie":  "Karting",
+        "Latitude":  45.130235,
+        "Longitude":  3.822126,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "E-Karting \u0026 Paintball du Revermont",
+        "Ville":  "Saint-Just",
+        "CodePostal":  1250,
+        "Categorie":  "Karting",
+        "Latitude":  46.190696,
+        "Longitude":  5.282859,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Energy Karting",
+        "Ville":  "Saint-Cyr",
+        "CodePostal":  7430,
+        "Categorie":  "Karting",
+        "Latitude":  45.244073,
+        "Longitude":  4.741848,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fast and Green Karting",
+        "Ville":  "Saint-Étienne",
+        "CodePostal":  42000,
+        "Categorie":  "Karting",
+        "Latitude":  45.430195,
+        "Longitude":  4.370045,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kart\u0027In Lyon (Park Events)",
+        "Ville":  "Vénissieux",
+        "CodePostal":  69200,
+        "Categorie":  "Karting",
+        "Latitude":  45.707095,
+        "Longitude":  4.881379,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Lavilledieu",
+        "Ville":  "Lavilledieu",
+        "CodePostal":  7170,
+        "Categorie":  "Karting",
+        "Latitude":  44.579484,
+        "Longitude":  4.448596,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Lyon Bully",
+        "Ville":  "Bully",
+        "CodePostal":  69210,
+        "Categorie":  "Karting",
+        "Latitude":  45.86168,
+        "Longitude":  4.57762,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting de Pers",
+        "Ville":  "Le Rouget-Pers",
+        "CodePostal":  15290,
+        "Categorie":  "Karting",
+        "Latitude":  44.882907,
+        "Longitude":  2.233149,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Évasion",
+        "Ville":  "Bully",
+        "CodePostal":  69210,
+        "Categorie":  "Karting",
+        "Latitude":  45.86768,
+        "Longitude":  4.58362,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "MK Circuit Karting",
+        "Ville":  "Scientrier",
+        "CodePostal":  74930,
+        "Categorie":  "Karting",
+        "Latitude":  46.120944,
+        "Longitude":  6.31377,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "On Kart (SCI Indoor Loisirs)",
+        "Ville":  "Viry",
+        "CodePostal":  74580,
+        "Categorie":  "Karting",
+        "Latitude":  46.123037,
+        "Longitude":  6.033171,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Only Kart",
+        "Ville":  "Dagneux",
+        "CodePostal":  1120,
+        "Categorie":  "Karting",
+        "Latitude":  45.849024,
+        "Longitude":  5.071242,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Urban Kart\u0027In",
+        "Ville":  "La Roche-sur-Foron",
+        "CodePostal":  74800,
+        "Categorie":  "Karting",
+        "Latitude":  46.053131,
+        "Longitude":  6.296247,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "CKB – Karting outdoor",
+        "Ville":  "Besançon",
+        "CodePostal":  25000,
+        "Categorie":  "Karting",
+        "Latitude":  47.251938,
+        "Longitude":  6.001699,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting de Sens",
+        "Ville":  "Soucy",
+        "CodePostal":  89100,
+        "Categorie":  "Karting",
+        "Latitude":  48.247499,
+        "Longitude":  3.326142,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Brest Karting Électrique",
+        "Ville":  "Brest",
+        "CodePostal":  29200,
+        "Categorie":  "Karting",
+        "Latitude":  48.406145,
+        "Longitude":  -4.497735,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Cap Karting",
+        "Ville":  "Melesse",
+        "CodePostal":  35520,
+        "Categorie":  "Karting",
+        "Latitude":  48.219365,
+        "Longitude":  -1.688582,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Actarus",
+        "Ville":  "Lohéac",
+        "CodePostal":  35550,
+        "Categorie":  "Karting",
+        "Latitude":  47.86977,
+        "Longitude":  -1.88711,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting de Kerlabo (karting / rallycross)",
+        "Ville":  "Cohiniac",
+        "CodePostal":  22800,
+        "Categorie":  "Karting",
+        "Latitude":  48.452026,
+        "Longitude":  -2.954645,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kartouest 29",
+        "Ville":  "Ploumoguer",
+        "CodePostal":  29810,
+        "Categorie":  "Karting",
+        "Latitude":  48.394943,
+        "Longitude":  -4.710581,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "PYC Karting",
+        "Ville":  "Plérin",
+        "CodePostal":  22190,
+        "Categorie":  "Karting",
+        "Latitude":  48.547316,
+        "Longitude":  -2.782476,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Roazhon Kart",
+        "Ville":  "La Mézière",
+        "CodePostal":  35520,
+        "Categorie":  "Karting",
+        "Latitude":  48.213325,
+        "Longitude":  -1.74647,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SARL MFM (karting + laser game)",
+        "Ville":  "Quimper",
+        "CodePostal":  29000,
+        "Categorie":  "Karting",
+        "Latitude":  47.998695,
+        "Longitude":  -4.093228,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Formule Kart",
+        "Ville":  "Villeperdue",
+        "CodePostal":  37260,
+        "Categorie":  "Karting",
+        "Latitude":  47.199889,
+        "Longitude":  0.632005,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kart Racer",
+        "Ville":  "Saran",
+        "CodePostal":  45770,
+        "Categorie":  "Karting",
+        "Latitude":  47.946923,
+        "Longitude":  1.875773,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting de Chartres",
+        "Ville":  "Chartres",
+        "CodePostal":  28000,
+        "Categorie":  "Karting",
+        "Latitude":  48.446525,
+        "Longitude":  1.502286,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Tours Kart Indoor",
+        "Ville":  "Tours",
+        "CodePostal":  37000,
+        "Categorie":  "Karting",
+        "Latitude":  47.395476,
+        "Longitude":  0.695848,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Corsica Arena",
+        "Ville":  "Sarrola-Carcopino",
+        "CodePostal":  20167,
+        "Categorie":  "Karting",
+        "Latitude":  41.984463,
+        "Longitude":  8.837335,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Prokart",
+        "Ville":  "Figari",
+        "CodePostal":  20114,
+        "Categorie":  "Karting",
+        "Latitude":  41.510497,
+        "Longitude":  9.128562,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Ardennes Karting",
+        "Ville":  "Douzy",
+        "CodePostal":  8140,
+        "Categorie":  "Karting",
+        "Latitude":  49.667672,
+        "Longitude":  5.042412,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Douzy",
+        "Ville":  "Douzy",
+        "CodePostal":  8140,
+        "Categorie":  "Karting",
+        "Latitude":  49.673672,
+        "Longitude":  5.048412,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Oberlin (AJ Loisirs)",
+        "Ville":  "Nancy",
+        "CodePostal":  54000,
+        "Categorie":  "Karting",
+        "Latitude":  48.688135,
+        "Longitude":  6.171263,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "DKS Motor",
+        "Ville":  "Rouvignies",
+        "CodePostal":  59220,
+        "Categorie":  "Karting",
+        "Latitude":  50.332646,
+        "Longitude":  3.448743,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "KHUB Arras Karting",
+        "Ville":  "Sainte-Catherine",
+        "CodePostal":  62223,
+        "Categorie":  "Karting",
+        "Latitude":  50.308943,
+        "Longitude":  2.762502,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kart Innov",
+        "Ville":  "Bruay-la-Buissière",
+        "CodePostal":  62700,
+        "Categorie":  "Karting",
+        "Latitude":  50.485715,
+        "Longitude":  2.555019,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Loisirs",
+        "Ville":  "Hazebrouck",
+        "CodePostal":  59190,
+        "Categorie":  "Karting",
+        "Latitude":  50.719443,
+        "Longitude":  2.531796,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Loisirs",
+        "Ville":  "Maubeuge",
+        "CodePostal":  59600,
+        "Categorie":  "Karting",
+        "Latitude":  50.284569,
+        "Longitude":  3.965341,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Planet Karting",
+        "Ville":  "Saint-Martin-lez-Tatinghem",
+        "CodePostal":  62500,
+        "Categorie":  "Karting",
+        "Latitude":  50.754535,
+        "Longitude":  2.2261,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Racing Kart JPR",
+        "Ville":  "Ostricourt",
+        "CodePostal":  59162,
+        "Categorie":  "Karting",
+        "Latitude":  50.45648,
+        "Longitude":  3.029941,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "K1 Speed",
+        "Ville":  "Hérouville-Saint-Clair",
+        "CodePostal":  14200,
+        "Categorie":  "Karting",
+        "Latitude":  49.203411,
+        "Longitude":  -0.332375,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Luka\u0027rting",
+        "Ville":  "Rouen",
+        "CodePostal":  76000,
+        "Categorie":  "Karting",
+        "Latitude":  49.440051,
+        "Longitude":  1.093912,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bergerac Karting",
+        "Ville":  "Bergerac",
+        "CodePostal":  24100,
+        "Categorie":  "Karting",
+        "Latitude":  44.85304,
+        "Longitude":  0.482291,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Elite Kart",
+        "Ville":  "Saint-Laurent-des-Vignes",
+        "CodePostal":  24100,
+        "Categorie":  "Karting",
+        "Latitude":  44.823136,
+        "Longitude":  0.450668,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Garden Karting",
+        "Ville":  "La Douze",
+        "CodePostal":  24330,
+        "Categorie":  "Karting",
+        "Latitude":  45.066405,
+        "Longitude":  0.86466,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kartexpreme",
+        "Ville":  "Saint-Genis-de-Saintonge",
+        "CodePostal":  17240,
+        "Categorie":  "Karting",
+        "Latitude":  45.480255,
+        "Longitude":  -0.566556,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Loisirs 86",
+        "Ville":  "Usseau",
+        "CodePostal":  86230,
+        "Categorie":  "Karting",
+        "Latitude":  46.879663,
+        "Longitude":  0.49779,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Montalivet",
+        "Ville":  "Vendays-Montalivet",
+        "CodePostal":  33930,
+        "Categorie":  "Karting",
+        "Latitude":  45.34446,
+        "Longitude":  -1.089784,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting du Périgord (TGEC)",
+        "Ville":  "Teyjat",
+        "CodePostal":  24300,
+        "Categorie":  "Karting",
+        "Latitude":  45.594636,
+        "Longitude":  0.578438,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Racing Kart RK47",
+        "Ville":  "Caudecoste",
+        "CodePostal":  47220,
+        "Categorie":  "Karting",
+        "Latitude":  44.120647,
+        "Longitude":  0.737514,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "BSO Karting",
+        "Ville":  "Caussiniojouls",
+        "CodePostal":  34600,
+        "Categorie":  "Karting",
+        "Latitude":  43.551497,
+        "Longitude":  3.15212,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Defikart",
+        "Ville":  "Toulouse",
+        "CodePostal":  31000,
+        "Categorie":  "Karting",
+        "Latitude":  43.604082,
+        "Longitude":  1.433805,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Montaudran",
+        "Ville":  "Toulouse",
+        "CodePostal":  31000,
+        "Categorie":  "Karting",
+        "Latitude":  43.610082,
+        "Longitude":  1.439805,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Number One",
+        "Ville":  "Agde",
+        "CodePostal":  34300,
+        "Categorie":  "Karting",
+        "Latitude":  43.302779,
+        "Longitude":  3.484797,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Rouanet",
+        "Ville":  "Aiguefonde",
+        "CodePostal":  81200,
+        "Categorie":  "Karting",
+        "Latitude":  43.504788,
+        "Longitude":  2.329709,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Lockarting",
+        "Ville":  "Pérols",
+        "CodePostal":  34470,
+        "Categorie":  "Karting",
+        "Latitude":  43.567221,
+        "Longitude":  3.95229,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Pistes de karting de Torreilles",
+        "Ville":  "Torreilles",
+        "CodePostal":  66440,
+        "Categorie":  "Karting",
+        "Latitude":  42.757144,
+        "Longitude":  3.002394,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sunkarting",
+        "Ville":  "Sérignan",
+        "CodePostal":  34410,
+        "Categorie":  "Karting",
+        "Latitude":  43.264256,
+        "Longitude":  3.296132,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sodikart (Distribution Matériel Karting)",
+        "Ville":  "Alès",
+        "CodePostal":  30100,
+        "Categorie":  "Karting",
+        "Latitude":  44.125356,
+        "Longitude":  4.089242,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fun Kart",
+        "Ville":  "Brissac",
+        "CodePostal":  49250,
+        "Categorie":  "Karting",
+        "Latitude":  47.347144,
+        "Longitude":  -0.413557,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Inwall Kart",
+        "Ville":  "Les Ponts-de-Cé",
+        "CodePostal":  49130,
+        "Categorie":  "Karting",
+        "Latitude":  47.42928,
+        "Longitude":  -0.521967,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Jovikart",
+        "Ville":  "Le Bignon",
+        "CodePostal":  44140,
+        "Categorie":  "Karting",
+        "Latitude":  47.100317,
+        "Longitude":  -1.503862,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kart Cross Buggy Event",
+        "Ville":  "Sautron",
+        "CodePostal":  44880,
+        "Categorie":  "Karting",
+        "Latitude":  47.275287,
+        "Longitude":  -1.679981,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Accel",
+        "Ville":  "Saint-Sébastien-sur-Loire",
+        "CodePostal":  44230,
+        "Categorie":  "Karting",
+        "Latitude":  47.199355,
+        "Longitude":  -1.502678,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting de Nantes",
+        "Ville":  "Saint-Herblain",
+        "CodePostal":  44800,
+        "Categorie":  "Karting",
+        "Latitude":  47.227082,
+        "Longitude":  -1.625284,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Location Racing Kart Le Mans (SCI La Belle Inutile)",
+        "Ville":  "Soulitré",
+        "CodePostal":  72370,
+        "Categorie":  "Karting",
+        "Latitude":  48.023948,
+        "Longitude":  0.442368,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "MK Racing",
+        "Ville":  "Saint-Christophe-du-Bois",
+        "CodePostal":  49280,
+        "Categorie":  "Karting",
+        "Latitude":  47.026187,
+        "Longitude":  -0.975005,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Mecamax",
+        "Ville":  "L\u0027Île-d\u0027Olonne",
+        "CodePostal":  85340,
+        "Categorie":  "Karting",
+        "Latitude":  46.568271,
+        "Longitude":  -1.77118,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sodikart",
+        "Ville":  "Saint-Herblain",
+        "CodePostal":  44800,
+        "Categorie":  "Karting",
+        "Latitude":  47.233082,
+        "Longitude":  -1.619284,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sodikart",
+        "Ville":  "Sautron",
+        "CodePostal":  44880,
+        "Categorie":  "Karting",
+        "Latitude":  47.281287,
+        "Longitude":  -1.673981,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Solokart 44",
+        "Ville":  "Plessé",
+        "CodePostal":  44630,
+        "Categorie":  "Karting",
+        "Latitude":  47.546488,
+        "Longitude":  -1.888071,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sodikart (Distribution Matériel Karting)",
+        "Ville":  "Couëron",
+        "CodePostal":  44220,
+        "Categorie":  "Karting",
+        "Latitude":  47.231751,
+        "Longitude":  -1.7056,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Alpes Karting (SCI Aphina)",
+        "Ville":  "Piégut",
+        "CodePostal":  5130,
+        "Categorie":  "Karting",
+        "Latitude":  44.455118,
+        "Longitude":  6.124837,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Brignoles Karting Loisirs",
+        "Ville":  "Brignoles",
+        "CodePostal":  83170,
+        "Categorie":  "Karting",
+        "Latitude":  43.405995,
+        "Longitude":  6.073657,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Cannes Karting Indoor",
+        "Ville":  "Cannes",
+        "CodePostal":  6150,
+        "Categorie":  "Karting",
+        "Latitude":  43.555468,
+        "Longitude":  7.004585,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fun-Kart",
+        "Ville":  "Le Bar-sur-Loup",
+        "CodePostal":  6620,
+        "Categorie":  "Karting",
+        "Latitude":  43.697391,
+        "Longitude":  6.987288,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "International Racing Kart (IRK)",
+        "Ville":  "Fréjus",
+        "CodePostal":  83370,
+        "Categorie":  "Karting",
+        "Latitude":  43.445657,
+        "Longitude":  6.770515,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Indoor Provence",
+        "Ville":  "Aubagne",
+        "CodePostal":  13400,
+        "Categorie":  "Karting",
+        "Latitude":  43.301892,
+        "Longitude":  5.563888,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting de Vitrolles – Kart Up",
+        "Ville":  "Vitrolles",
+        "CodePostal":  13127,
+        "Categorie":  "Karting",
+        "Latitude":  43.443844,
+        "Longitude":  5.258646,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting des 3 Lacs",
+        "Ville":  "Piégut",
+        "CodePostal":  5130,
+        "Categorie":  "Karting",
+        "Latitude":  44.461118,
+        "Longitude":  6.130837,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kart Buffo",
+        "Ville":  "Ozouer-le-Voulgis",
+        "CodePostal":  77390,
+        "Categorie":  "Karting",
+        "Latitude":  48.662002,
+        "Longitude":  2.771125,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Battle (SCI KR)",
+        "Ville":  "Joinville-le-Pont",
+        "CodePostal":  94340,
+        "Categorie":  "Karting",
+        "Latitude":  48.820327,
+        "Longitude":  2.471927,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting Overland",
+        "Ville":  "Pontault-Combault",
+        "CodePostal":  77340,
+        "Categorie":  "Karting",
+        "Latitude":  48.793811,
+        "Longitude":  2.609096,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting SAVA (SCI La Charnoise)",
+        "Ville":  "Vaudoy-en-Brie",
+        "CodePostal":  77141,
+        "Categorie":  "Karting",
+        "Latitude":  48.704034,
+        "Longitude":  3.093786,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting UFOLEP",
+        "Ville":  "Moissy-Cramayel",
+        "CodePostal":  77550,
+        "Categorie":  "Karting",
+        "Latitude":  48.625716,
+        "Longitude":  2.591478,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Kartland",
+        "Ville":  "Moissy-Cramayel",
+        "CodePostal":  77550,
+        "Categorie":  "Karting",
+        "Latitude":  48.631716,
+        "Longitude":  2.597478,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Brest",
+        "Ville":  "Brest",
+        "CodePostal":  29200,
+        "Categorie":  "Speed Park",
+        "Latitude":  48.412145,
+        "Longitude":  -4.491735,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Blois",
+        "Ville":  "Blois",
+        "CodePostal":  41000,
+        "Categorie":  "Speed Park",
+        "Latitude":  47.581406,
+        "Longitude":  1.316533,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Strasbourg",
+        "Ville":  "Strasbourg",
+        "CodePostal":  67000,
+        "Categorie":  "Speed Park",
+        "Latitude":  48.579831,
+        "Longitude":  7.761454,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Arras (SARL Arras FD)",
+        "Ville":  "Arras",
+        "CodePostal":  62000,
+        "Categorie":  "Speed Park",
+        "Latitude":  50.287896,
+        "Longitude":  2.768267,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Beauvais (SAS Beauvais FD)",
+        "Ville":  "Beauvais",
+        "CodePostal":  60000,
+        "Categorie":  "Speed Park",
+        "Latitude":  49.439313,
+        "Longitude":  2.087881,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Le Mans",
+        "Ville":  "Saint-Saturnin",
+        "CodePostal":  72650,
+        "Categorie":  "Speed Park",
+        "Latitude":  48.054627,
+        "Longitude":  0.164448,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Brétigny",
+        "Ville":  "Brétigny-sur-Orge",
+        "CodePostal":  91220,
+        "Categorie":  "Speed Park",
+        "Latitude":  48.603562,
+        "Longitude":  2.296311,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Speed Park Claye-Souilly",
+        "Ville":  "Claye-Souilly",
+        "CodePostal":  77410,
+        "Categorie":  "Speed Park",
+        "Latitude":  48.943181,
+        "Longitude":  2.668776,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SpeedPark Servon",
+        "Ville":  "Servon",
+        "CodePostal":  77170,
+        "Categorie":  "Speed Park",
+        "Latitude":  48.713549,
+        "Longitude":  2.592945,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de Milleure",
+        "Ville":  "Frontenaud",
+        "CodePostal":  71580,
+        "Categorie":  "Circuit",
+        "Latitude":  46.545697,
+        "Longitude":  5.294753,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "GP Circuit",
+        "Ville":  "Lamballe-Armor",
+        "CodePostal":  22400,
+        "Categorie":  "Circuit",
+        "Latitude":  48.4918,
+        "Longitude":  -2.514652,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SCI Espaces Loisirs – Kart56",
+        "Ville":  "Ploemel",
+        "CodePostal":  56400,
+        "Categorie":  "Circuit",
+        "Latitude":  47.664966,
+        "Longitude":  -3.077249,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de Mirecourt",
+        "Ville":  "Mirecourt",
+        "CodePostal":  88500,
+        "Categorie":  "Circuit",
+        "Latitude":  48.301026,
+        "Longitude":  6.134121,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de Croix-en-Ternois / Saint-Pol",
+        "Ville":  "Croix-en-Ternois",
+        "CodePostal":  62130,
+        "Categorie":  "Circuit",
+        "Latitude":  50.382613,
+        "Longitude":  2.279108,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit Caen – MAB Expérience",
+        "Ville":  "Démouville",
+        "CodePostal":  14840,
+        "Categorie":  "Circuit",
+        "Latitude":  49.179056,
+        "Longitude":  -0.269267,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de Haute Saintonge",
+        "Ville":  "La Genétouze",
+        "CodePostal":  17360,
+        "Categorie":  "Circuit",
+        "Latitude":  45.224914,
+        "Longitude":  -0.056025,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Alès Racing System",
+        "Ville":  "Alès",
+        "CodePostal":  30100,
+        "Categorie":  "Circuit",
+        "Latitude":  44.131356,
+        "Longitude":  4.095242,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit Number One",
+        "Ville":  "Agde",
+        "CodePostal":  34300,
+        "Categorie":  "Circuit",
+        "Latitude":  43.308779,
+        "Longitude":  3.490797,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Piste de Brissac (ESC Motorsport)",
+        "Ville":  "Brissac",
+        "CodePostal":  34190,
+        "Categorie":  "Circuit",
+        "Latitude":  43.885997,
+        "Longitude":  3.703741,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de Bel Air",
+        "Ville":  "Vertou",
+        "CodePostal":  44120,
+        "Categorie":  "Circuit",
+        "Latitude":  47.155326,
+        "Longitude":  -1.467557,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de Vendée",
+        "Ville":  "Fontenay-le-Comte",
+        "CodePostal":  85200,
+        "Categorie":  "Circuit",
+        "Latitude":  46.459821,
+        "Longitude":  -0.794159,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "West Mecapark / FFM",
+        "Ville":  "Corcoué-sur-Logne",
+        "CodePostal":  44650,
+        "Categorie":  "Circuit",
+        "Latitude":  46.957237,
+        "Longitude":  -1.606814,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit du Var",
+        "Ville":  "Le Luc",
+        "CodePostal":  83340,
+        "Categorie":  "Circuit",
+        "Latitude":  43.388363,
+        "Longitude":  6.299819,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fun Driving",
+        "Ville":  "Roquebrune-sur-Argens",
+        "CodePostal":  83380,
+        "Categorie":  "Circuit",
+        "Latitude":  43.426919,
+        "Longitude":  6.661756,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Beltoise Évolution",
+        "Ville":  "Trappes",
+        "CodePostal":  78190,
+        "Categorie":  "Circuit",
+        "Latitude":  48.778249,
+        "Longitude":  1.993009,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Circuit de La Ferté-Gaucher",
+        "Ville":  "La Ferté-Gaucher",
+        "CodePostal":  77320,
+        "Categorie":  "Circuit",
+        "Latitude":  48.787408,
+        "Longitude":  3.301542,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Atlantis",
+        "Ville":  "Échirolles",
+        "CodePostal":  38130,
+        "Categorie":  "Bowling",
+        "Latitude":  45.146125,
+        "Longitude":  5.715042,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sport Bowling",
+        "Ville":  "Vesoul",
+        "CodePostal":  70000,
+        "Categorie":  "Bowling",
+        "Latitude":  47.628692,
+        "Longitude":  6.157979,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Dinan Bowling",
+        "Ville":  "Dinan",
+        "CodePostal":  22100,
+        "Categorie":  "Bowling",
+        "Latitude":  48.446574,
+        "Longitude":  -2.053922,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Atlantis",
+        "Ville":  "Tours",
+        "CodePostal":  37000,
+        "Categorie":  "Bowling",
+        "Latitude":  47.401476,
+        "Longitude":  0.701848,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "City Lanes",
+        "Ville":  "Orléans",
+        "CodePostal":  45000,
+        "Categorie":  "Bowling",
+        "Latitude":  47.873569,
+        "Longitude":  1.911358,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Complex Bowl (SCI Complex Immobilière)",
+        "Ville":  "Saran",
+        "CodePostal":  45770,
+        "Categorie":  "Bowling",
+        "Latitude":  47.952923,
+        "Longitude":  1.881773,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Eurobowl",
+        "Ville":  "Notre-Dame-d\u0027Oé",
+        "CodePostal":  37390,
+        "Categorie":  "Bowling",
+        "Latitude":  47.452931,
+        "Longitude":  0.707838,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SARL Grace (bowling, laser game, minigolf)",
+        "Ville":  "Saran",
+        "CodePostal":  45770,
+        "Categorie":  "Bowling",
+        "Latitude":  47.958923,
+        "Longitude":  1.887773,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Sport Bowling",
+        "Ville":  "Épinal",
+        "CodePostal":  88000,
+        "Categorie":  "Bowling",
+        "Latitude":  48.170226,
+        "Longitude":  6.484892,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Au Bowling de Calais",
+        "Ville":  "Calais",
+        "CodePostal":  62100,
+        "Categorie":  "Bowling",
+        "Latitude":  50.951564,
+        "Longitude":  1.866112,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Arras",
+        "Ville":  "Arras",
+        "CodePostal":  62000,
+        "Categorie":  "Bowling",
+        "Latitude":  50.293896,
+        "Longitude":  2.774267,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Camon",
+        "Ville":  "Camon",
+        "CodePostal":  80450,
+        "Categorie":  "Bowling",
+        "Latitude":  49.900914,
+        "Longitude":  2.356551,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Quai 121 – Cité Europe",
+        "Ville":  "Coquelles",
+        "CodePostal":  62231,
+        "Categorie":  "Bowling",
+        "Latitude":  50.926111,
+        "Longitude":  1.834056,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Quai 121 – Vauban",
+        "Ville":  "Douai",
+        "CodePostal":  59500,
+        "Categorie":  "Bowling",
+        "Latitude":  50.379896,
+        "Longitude":  3.094897,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Loisi Flandres",
+        "Ville":  "Hazebrouck",
+        "CodePostal":  59190,
+        "Categorie":  "Bowling",
+        "Latitude":  50.725443,
+        "Longitude":  2.537796,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Opale Bowling",
+        "Ville":  "Boulogne-sur-Mer",
+        "CodePostal":  62200,
+        "Categorie":  "Bowling",
+        "Latitude":  50.726334,
+        "Longitude":  1.607492,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Boules et Billes",
+        "Ville":  "Granville",
+        "CodePostal":  50400,
+        "Categorie":  "Bowling",
+        "Latitude":  48.83071,
+        "Longitude":  -1.57398,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling 868",
+        "Ville":  "Bayeux",
+        "CodePostal":  14400,
+        "Categorie":  "Bowling",
+        "Latitude":  49.278188,
+        "Longitude":  -0.702334,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling de Rouen",
+        "Ville":  "Rouen",
+        "CodePostal":  76000,
+        "Categorie":  "Bowling",
+        "Latitude":  49.446051,
+        "Longitude":  1.099912,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Club Limousin",
+        "Ville":  "Feytiat",
+        "CodePostal":  87220,
+        "Categorie":  "Bowling",
+        "Latitude":  45.806936,
+        "Longitude":  1.328286,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Eurobowl",
+        "Ville":  "Buxerolles",
+        "CodePostal":  86180,
+        "Categorie":  "Bowling",
+        "Latitude":  46.604512,
+        "Longitude":  0.361575,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling du Château Roussillon",
+        "Ville":  "Toulouse",
+        "CodePostal":  31000,
+        "Categorie":  "Bowling",
+        "Latitude":  43.616082,
+        "Longitude":  1.445805,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "QG13 (SCI Belle Aventure)",
+        "Ville":  "Canet-en-Roussillon",
+        "CodePostal":  66140,
+        "Categorie":  "Bowling",
+        "Latitude":  42.698333,
+        "Longitude":  3.005075,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Atlantis",
+        "Ville":  "Saint-Herblain",
+        "CodePostal":  44800,
+        "Categorie":  "Bowling",
+        "Latitude":  47.239082,
+        "Longitude":  -1.613284,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Eurobowl",
+        "Ville":  "Saint-Sébastien-sur-Loire",
+        "CodePostal":  44230,
+        "Categorie":  "Bowling",
+        "Latitude":  47.205355,
+        "Longitude":  -1.496678,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling de Grasse",
+        "Ville":  "Grasse",
+        "CodePostal":  6130,
+        "Categorie":  "Bowling",
+        "Latitude":  43.654057,
+        "Longitude":  6.937765,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "GNV Loisirs (bowling)",
+        "Ville":  "Vitrolles",
+        "CodePostal":  13127,
+        "Categorie":  "Bowling",
+        "Latitude":  43.449844,
+        "Longitude":  5.264646,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Academy Beaugrenelle",
+        "Ville":  "Paris",
+        "CodePostal":  75001,
+        "Categorie":  "Bowling",
+        "Latitude":  48.859,
+        "Longitude":  2.347,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Bowling Atlantis",
+        "Ville":  "Orgeval",
+        "CodePostal":  78630,
+        "Categorie":  "Bowling",
+        "Latitude":  48.926202,
+        "Longitude":  1.978094,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Chicago Bowling (Monnier)",
+        "Ville":  "Avrainville",
+        "CodePostal":  91630,
+        "Categorie":  "Bowling",
+        "Latitude":  48.56347,
+        "Longitude":  2.244609,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "City Bowling d\u0027Oz",
+        "Ville":  "Ozoir-la-Ferrière",
+        "CodePostal":  77330,
+        "Categorie":  "Bowling",
+        "Latitude":  48.767283,
+        "Longitude":  2.673278,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "La Briqueterie (karting \u0026 bowling)",
+        "Ville":  "Poincy",
+        "CodePostal":  77470,
+        "Categorie":  "Bowling",
+        "Latitude":  48.9707,
+        "Longitude":  2.922975,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Loisirs Extra – Bowling",
+        "Ville":  "Balainvilliers",
+        "CodePostal":  91160,
+        "Categorie":  "Bowling",
+        "Latitude":  48.672089,
+        "Longitude":  2.291903,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Pep\u0027s Bowling",
+        "Ville":  "Boussy-Saint-Antoine",
+        "CodePostal":  91800,
+        "Categorie":  "Bowling",
+        "Latitude":  48.689974,
+        "Longitude":  2.534369,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser Game Evolution Brest",
+        "Ville":  "Brest",
+        "CodePostal":  29200,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.418145,
+        "Longitude":  -4.485735,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SARL MFM – Laser Game",
+        "Ville":  "Trégueux",
+        "CodePostal":  22950,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.47876,
+        "Longitude":  -2.749857,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Dark Laser",
+        "Ville":  "Boulogne-sur-Mer",
+        "CodePostal":  62200,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  50.732334,
+        "Longitude":  1.613492,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Extreme Laser 27",
+        "Ville":  "Vernon",
+        "CodePostal":  27200,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  49.089623,
+        "Longitude":  1.494472,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser Game Evolution I7",
+        "Ville":  "Le Havre",
+        "CodePostal":  76600,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  49.507345,
+        "Longitude":  0.129995,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Elite Laser (SCI Barbachris)",
+        "Ville":  "Bergerac",
+        "CodePostal":  24100,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  44.85904,
+        "Longitude":  0.488291,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser Game Evolution",
+        "Ville":  "Mérignac",
+        "CodePostal":  33700,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  44.83337,
+        "Longitude":  -0.674682,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SRD Insoa (laser game)",
+        "Ville":  "Gond-Pontouvre",
+        "CodePostal":  16160,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  45.679392,
+        "Longitude":  0.163828,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SRD Invest (complexe sportif indoor)",
+        "Ville":  "Fontaine-le-Comte",
+        "CodePostal":  86240,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  46.532286,
+        "Longitude":  0.254132,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "SRD Loisirs (laser game)",
+        "Ville":  "Fontaine-le-Comte",
+        "CodePostal":  86240,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  46.538286,
+        "Longitude":  0.260132,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Angers",
+        "CodePostal":  49000,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  47.467471,
+        "Longitude":  -0.561615,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Bordeaux",
+        "CodePostal":  33000,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  44.851939,
+        "Longitude":  -0.587877,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Lille",
+        "CodePostal":  59000,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  50.630951,
+        "Longitude":  3.045391,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Lyon",
+        "CodePostal":  69001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  45.758,
+        "Longitude":  4.835,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Lyon",
+        "CodePostal":  69001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  45.764,
+        "Longitude":  4.841,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Paris",
+        "CodePostal":  75001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.865,
+        "Longitude":  2.353,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Paris",
+        "CodePostal":  75001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.871,
+        "Longitude":  2.359,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Paris",
+        "CodePostal":  75001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.877,
+        "Longitude":  2.365,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Paris",
+        "CodePostal":  75001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.883,
+        "Longitude":  2.371,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Rouen",
+        "CodePostal":  76000,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  49.452051,
+        "Longitude":  1.105912,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Saint-Quentin-en-Yvelines",
+        "CodePostal":  78180,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.779563,
+        "Longitude":  2.033014,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Quiz Room",
+        "Ville":  "Strasbourg",
+        "CodePostal":  67000,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.585831,
+        "Longitude":  7.767454,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser 77",
+        "Ville":  "Varennes-sur-Seine",
+        "CodePostal":  77130,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.378325,
+        "Longitude":  2.938901,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser 77",
+        "Ville":  "Vert-Saint-Denis",
+        "CodePostal":  77240,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.567971,
+        "Longitude":  2.629439,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser 94",
+        "Ville":  "Charenton-le-Pont",
+        "CodePostal":  94220,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.823948,
+        "Longitude":  2.407129,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laser 94",
+        "Ville":  "Créteil",
+        "CodePostal":  94000,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.784506,
+        "Longitude":  2.452976,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laserworld",
+        "Ville":  "Arcueil",
+        "CodePostal":  94110,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.805178,
+        "Longitude":  2.333471,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laserworld",
+        "Ville":  "Aulnay-sous-Bois",
+        "CodePostal":  93600,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.940735,
+        "Longitude":  2.497929,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laserworld",
+        "Ville":  "La Garenne-Colombes",
+        "CodePostal":  92250,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.907164,
+        "Longitude":  2.244406,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Laserworld",
+        "Ville":  "Paris 14e",
+        "CodePostal":  75001,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.889,
+        "Longitude":  2.377,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Lockedup / DS Adventure (escape game)",
+        "Ville":  "Chanteloup-en-Brie",
+        "CodePostal":  77600,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.859862,
+        "Longitude":  2.741246,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Pi Laser",
+        "Ville":  "Brétigny-sur-Orge",
+        "CodePostal":  91220,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.609562,
+        "Longitude":  2.302311,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Pi Laser",
+        "Ville":  "Lognes",
+        "CodePostal":  77185,
+        "Categorie":  "Laser game / Escape / Quiz",
+        "Latitude":  48.833404,
+        "Longitude":  2.636075,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Margencel Loisirs",
+        "Ville":  "Margencel",
+        "CodePostal":  74200,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  46.337301,
+        "Longitude":  6.420536,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Games Factory",
+        "Ville":  "Beaune",
+        "CodePostal":  21200,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.025352,
+        "Longitude":  4.840893,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Games Factory",
+        "Ville":  "Chalon",
+        "CodePostal":  71100,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  46.7917,
+        "Longitude":  4.845526,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Games Factory",
+        "Ville":  "Marsannay",
+        "CodePostal":  21160,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.275243,
+        "Longitude":  5.003605,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Games Factory",
+        "Ville":  "Dijon",
+        "CodePostal":  21000,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.331953,
+        "Longitude":  5.033601,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Games Factory",
+        "Ville":  "Quetigny",
+        "CodePostal":  21800,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.31436,
+        "Longitude":  5.109777,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Games Factory",
+        "Ville":  "Besançon",
+        "CodePostal":  25000,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.257938,
+        "Longitude":  6.007699,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Le Rigolou",
+        "Ville":  "Saran",
+        "CodePostal":  45770,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.964923,
+        "Longitude":  1.893773,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Wakalase – La Croisière Loisirs",
+        "Ville":  "Cernay",
+        "CodePostal":  68700,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.80342,
+        "Longitude":  7.170948,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Défis Parc",
+        "Ville":  "Gauchy",
+        "CodePostal":  2430,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  49.826081,
+        "Longitude":  3.280949,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "La Kaverne",
+        "Ville":  "Saint-Quentin",
+        "CodePostal":  2100,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  49.847398,
+        "Longitude":  3.28745,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Team Square / Game On / Kick City",
+        "Ville":  "Hénin-Beaumont",
+        "CodePostal":  62110,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  50.420666,
+        "Longitude":  2.951562,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Espace 76",
+        "Ville":  "Tourville-la-Rivière",
+        "CodePostal":  76410,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  49.327993,
+        "Longitude":  1.093917,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Le Looping",
+        "Ville":  "Montivilliers",
+        "CodePostal":  76290,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  49.542715,
+        "Longitude":  0.18932,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Rouen Espace Loisir",
+        "Ville":  "Rouen",
+        "CodePostal":  76000,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  49.458051,
+        "Longitude":  1.111912,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Niort Amusement",
+        "Ville":  "Niort",
+        "CodePostal":  79000,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  46.327232,
+        "Longitude":  -0.466291,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Béziers Loisirs",
+        "Ville":  "Béziers",
+        "CodePostal":  34500,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  43.343264,
+        "Longitude":  3.233465,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Aqua Sport Loisirs",
+        "Ville":  "Quilly",
+        "CodePostal":  44750,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.453034,
+        "Longitude":  -1.93987,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "L\u0027Autre Usine (RGV Groupe)",
+        "Ville":  "Cholet",
+        "CodePostal":  49300,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  47.036408,
+        "Longitude":  -0.875399,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Cannes Loisirs",
+        "Ville":  "Cannes",
+        "CodePostal":  6150,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  43.561468,
+        "Longitude":  7.010585,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Païdou",
+        "Ville":  "Montreuil",
+        "CodePostal":  93100,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.863728,
+        "Longitude":  2.449364,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Païdou",
+        "Ville":  "Asnières",
+        "CodePostal":  92600,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.918167,
+        "Longitude":  2.292385,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Païdou",
+        "Ville":  "Puteaux",
+        "CodePostal":  92800,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.884156,
+        "Longitude":  2.237199,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Païdou",
+        "Ville":  "Levallois",
+        "CodePostal":  92300,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.894215,
+        "Longitude":  2.286846,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Païdou",
+        "Ville":  "Bois-Colombes",
+        "CodePostal":  92270,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.915331,
+        "Longitude":  2.268837,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Païdou",
+        "Ville":  "Saint-Mandé",
+        "CodePostal":  94160,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.841526,
+        "Longitude":  2.419441,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Smile World",
+        "Ville":  "Malakoff",
+        "CodePostal":  92240,
+        "Categorie":  "Complexe / parc de loisirs",
+        "Latitude":  48.81742,
+        "Longitude":  2.294086,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Élévation Indoor (parkour)",
+        "Ville":  "Neydens",
+        "CodePostal":  74160,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  46.118765,
+        "Longitude":  6.108845,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Dinan Jump",
+        "Ville":  "Dinan",
+        "CodePostal":  22100,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  48.452574,
+        "Longitude":  -2.047922,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fun City – Jump Virtual Arena",
+        "Ville":  "Orléans",
+        "CodePostal":  45000,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  47.879569,
+        "Longitude":  1.917358,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Rebound World",
+        "Ville":  "Montpellier",
+        "CodePostal":  34000,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  43.610476,
+        "Longitude":  3.87048,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Full In Park",
+        "Ville":  "La Garde",
+        "CodePostal":  83130,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  43.127716,
+        "Longitude":  6.015518,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Full In Park",
+        "Ville":  "Marseille",
+        "CodePostal":  13001,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  43.282,
+        "Longitude":  5.405,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Trampoline Park Gravity Space",
+        "Ville":  "La Garde",
+        "CodePostal":  83130,
+        "Categorie":  "Trampoline / indoor",
+        "Latitude":  43.133716,
+        "Longitude":  6.021518,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Arena Complexe / So Park",
+        "Ville":  "Viriat",
+        "CodePostal":  1440,
+        "Categorie":  "Sport",
+        "Latitude":  46.248528,
+        "Longitude":  5.227107,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Léman Foot 5",
+        "Ville":  "Perrignier",
+        "CodePostal":  74550,
+        "Categorie":  "Sport",
+        "Latitude":  46.303758,
+        "Longitude":  6.436407,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Rocky Sports",
+        "Ville":  "Alpe d\u0027Huez",
+        "CodePostal":  38750,
+        "Categorie":  "Sport",
+        "Latitude":  45.08667,
+        "Longitude":  6.066699,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Concept Ball",
+        "Ville":  "Champforgeuil",
+        "CodePostal":  71530,
+        "Categorie":  "Sport",
+        "Latitude":  46.814446,
+        "Longitude":  4.838893,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Kemp\u00275",
+        "Ville":  "Quimper",
+        "CodePostal":  29000,
+        "Categorie":  "Sport",
+        "Latitude":  48.004695,
+        "Longitude":  -4.087228,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park (FPK 37)",
+        "Ville":  "Tours",
+        "CodePostal":  37000,
+        "Categorie":  "Sport",
+        "Latitude":  47.407476,
+        "Longitude":  0.707848,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Passionata Fitness",
+        "Ville":  "Chécy",
+        "CodePostal":  45430,
+        "Categorie":  "Sport",
+        "Latitude":  47.902112,
+        "Longitude":  2.020374,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Woden Fitness Club (SCI LRV)",
+        "Ville":  "Saran",
+        "CodePostal":  45770,
+        "Categorie":  "Sport",
+        "Latitude":  47.970923,
+        "Longitude":  1.899773,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Activ Mulhouse",
+        "Ville":  "Colmar",
+        "CodePostal":  68000,
+        "Categorie":  "Sport",
+        "Latitude":  48.081779,
+        "Longitude":  7.352569,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Activ Mulhouse",
+        "Ville":  "Mulhouse",
+        "CodePostal":  68100,
+        "Categorie":  "Sport",
+        "Latitude":  47.751661,
+        "Longitude":  7.326517,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Eva Gym",
+        "Ville":  "Illzach",
+        "CodePostal":  68110,
+        "Categorie":  "Sport",
+        "Latitude":  47.776,
+        "Longitude":  7.361973,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Inside Sport",
+        "Ville":  "Reims",
+        "CodePostal":  51100,
+        "Categorie":  "Sport",
+        "Latitude":  49.250948,
+        "Longitude":  4.055595,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Yoga Origins",
+        "Ville":  "Morschwiller-le-Bas",
+        "CodePostal":  68790,
+        "Categorie":  "Sport",
+        "Latitude":  47.735819,
+        "Longitude":  7.270129,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fit Place",
+        "Ville":  "Amiens",
+        "CodePostal":  80000,
+        "Categorie":  "Sport",
+        "Latitude":  49.903041,
+        "Longitude":  2.292605,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park",
+        "Ville":  "Chambry",
+        "CodePostal":  2000,
+        "Categorie":  "Sport",
+        "Latitude":  49.595114,
+        "Longitude":  3.661657,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park",
+        "Ville":  "Soissons",
+        "CodePostal":  2200,
+        "Categorie":  "Sport",
+        "Latitude":  49.377401,
+        "Longitude":  3.327272,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Footmax",
+        "Ville":  "Saint-Maximin",
+        "CodePostal":  60740,
+        "Categorie":  "Sport",
+        "Latitude":  49.225821,
+        "Longitude":  2.44572,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fraternity (CrossFit)",
+        "Ville":  "La Madeleine",
+        "CodePostal":  59110,
+        "Categorie":  "Sport",
+        "Latitude":  50.655147,
+        "Longitude":  3.069899,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Giacans Sports",
+        "Ville":  "Mesnil-Saint-Laurent",
+        "CodePostal":  2720,
+        "Categorie":  "Sport",
+        "Latitude":  49.83124,
+        "Longitude":  3.354509,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Le Stadium",
+        "Ville":  "Compiègne",
+        "CodePostal":  60200,
+        "Categorie":  "Sport",
+        "Latitude":  49.405934,
+        "Longitude":  2.844366,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "On Air",
+        "Ville":  "Lille",
+        "CodePostal":  59000,
+        "Categorie":  "Sport",
+        "Latitude":  50.636951,
+        "Longitude":  3.051391,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Activ Square",
+        "Ville":  "Pessac",
+        "CodePostal":  33600,
+        "Categorie":  "Sport",
+        "Latitude":  44.787469,
+        "Longitude":  -0.675933,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Agen Indoor",
+        "Ville":  "Agen",
+        "CodePostal":  47000,
+        "Categorie":  "Sport",
+        "Latitude":  44.202304,
+        "Longitude":  0.631041,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Foot Goal 33",
+        "Ville":  "Saint-André-de-Cubzac",
+        "CodePostal":  33240,
+        "Categorie":  "Sport",
+        "Latitude":  44.99533,
+        "Longitude":  -0.439459,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Indoor 64",
+        "Ville":  "Lescar",
+        "CodePostal":  64230,
+        "Categorie":  "Sport",
+        "Latitude":  43.33303,
+        "Longitude":  -0.432535,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "L\u0027Orange Bleue – GR 2 Fitness",
+        "Ville":  "Saint-Médard-en-Jalles",
+        "CodePostal":  33160,
+        "Categorie":  "Sport",
+        "Latitude":  44.891628,
+        "Longitude":  -0.761713,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "L\u0027Orange Bleue – GR Fitness",
+        "Ville":  "Bordeaux",
+        "CodePostal":  33000,
+        "Categorie":  "Sport",
+        "Latitude":  44.857939,
+        "Longitude":  -0.581877,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Convisport – Futsal Soccarroo",
+        "Ville":  "Angers",
+        "CodePostal":  49000,
+        "Categorie":  "Sport",
+        "Latitude":  47.473471,
+        "Longitude":  -0.555615,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "L\u0027Orange Bleue",
+        "Ville":  "Laval",
+        "CodePostal":  53000,
+        "Categorie":  "Sport",
+        "Latitude":  48.059541,
+        "Longitude":  -0.77159,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Arena 18",
+        "Ville":  "Gap",
+        "CodePostal":  5000,
+        "Categorie":  "Sport",
+        "Latitude":  44.563233,
+        "Longitude":  6.076778,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park",
+        "Ville":  "Montfavet",
+        "CodePostal":  84000,
+        "Categorie":  "Sport",
+        "Latitude":  43.936345,
+        "Longitude":  4.848861,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Foot Salle Avignonnaise",
+        "Ville":  "Avignon",
+        "CodePostal":  84000,
+        "Categorie":  "Sport",
+        "Latitude":  43.942345,
+        "Longitude":  4.854861,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Mind et Run",
+        "Ville":  "Aix-en-Provence",
+        "CodePostal":  13080,
+        "Categorie":  "Sport",
+        "Latitude":  43.541369,
+        "Longitude":  5.406124,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Riviera Foot (foot en salle)",
+        "Ville":  "Saint-Raphaël",
+        "CodePostal":  83530,
+        "Categorie":  "Sport",
+        "Latitude":  43.442676,
+        "Longitude":  6.849913,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park",
+        "Ville":  "Courbevoie",
+        "CodePostal":  92400,
+        "Categorie":  "Sport",
+        "Latitude":  48.897974,
+        "Longitude":  2.257057,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park (Fit\u0027Kel)",
+        "Ville":  "Lognes",
+        "CodePostal":  77185,
+        "Categorie":  "Sport",
+        "Latitude":  48.839404,
+        "Longitude":  2.642075,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park (KT Fitness)",
+        "Ville":  "Montreuil",
+        "CodePostal":  93100,
+        "Categorie":  "Sport",
+        "Latitude":  48.869728,
+        "Longitude":  2.455364,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park (Kaly)",
+        "Ville":  "Quincy-Voisins",
+        "CodePostal":  77860,
+        "Categorie":  "Sport",
+        "Latitude":  48.898734,
+        "Longitude":  2.873581,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park (Kel Fitness)",
+        "Ville":  "Pantin",
+        "CodePostal":  93500,
+        "Categorie":  "Sport",
+        "Latitude":  48.900267,
+        "Longitude":  2.409457,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "On Air (Alfort Fitness)",
+        "Ville":  "Alfortville",
+        "CodePostal":  94140,
+        "Categorie":  "Sport",
+        "Latitude":  48.797176,
+        "Longitude":  2.421524,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Golf de la Forteresse (SAS)",
+        "Ville":  "Thoury-Férottes",
+        "CodePostal":  77940,
+        "Categorie":  "Sport",
+        "Latitude":  48.298376,
+        "Longitude":  2.945078,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Golf d’Ozoir (SCI Simada)",
+        "Ville":  "Ozoir-la-Ferrière",
+        "CodePostal":  77330,
+        "Categorie":  "Sport",
+        "Latitude":  48.773283,
+        "Longitude":  2.679278,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Fitness Park (SARL Vincent Trimaille)",
+        "Ville":  "Audincourt",
+        "CodePostal":  25400,
+        "Categorie":  "Sport",
+        "Latitude":  47.479572,
+        "Longitude":  6.846659,
+        "Couleur":  "vert"
+    },
+    {
+        "Nom":  "Karting du Bugey",
+        "Ville":  "Château-Gaillard",
+        "CodePostal":  1500,
+        "Categorie":  "Karting",
+        "Latitude":  45.969833,
+        "Longitude":  5.305852,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Montrevel en Bresse",
+        "Ville":  "Malafretaz",
+        "CodePostal":  1340,
+        "Categorie":  "Karting",
+        "Latitude":  46.324302,
+        "Longitude":  5.146197,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Astra Kart Ozan",
+        "Ville":  "Ozan",
+        "CodePostal":  1190,
+        "Categorie":  "Karting",
+        "Latitude":  46.390231,
+        "Longitude":  4.922699,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Pondinois",
+        "Ville":  "Pont-d\u0027Ain",
+        "CodePostal":  1160,
+        "Categorie":  "Karting",
+        "Latitude":  46.056144,
+        "Longitude":  5.346389,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Marcillat-en-Combraille",
+        "Ville":  "Marcillat-en-Combraille",
+        "CodePostal":  3420,
+        "Categorie":  "Karting",
+        "Latitude":  46.171431,
+        "Longitude":  2.631688,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Dynamic Kart",
+        "Ville":  "Quinssaines",
+        "CodePostal":  3380,
+        "Categorie":  "Karting",
+        "Latitude":  46.325271,
+        "Longitude":  2.505256,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Varennes",
+        "Ville":  "Varennes",
+        "CodePostal":  3150,
+        "Categorie":  "Karting",
+        "Latitude":  46.319418,
+        "Longitude":  3.40578,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Ardèche Loisirs Mécaniques",
+        "Ville":  "Grospierres",
+        "CodePostal":  7120,
+        "Categorie":  "Karting",
+        "Latitude":  44.394617,
+        "Longitude":  4.286526,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "MP Karting",
+        "Ville":  "Lanas",
+        "CodePostal":  7200,
+        "Categorie":  "Karting",
+        "Latitude":  44.54001,
+        "Longitude":  4.398096,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Eurokart",
+        "Ville":  "Châteauneuf-sur-Isère",
+        "CodePostal":  26300,
+        "Categorie":  "Karting",
+        "Latitude":  45.007611,
+        "Longitude":  4.956298,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting la Roche de Glun",
+        "Ville":  "La Roche-de-Glun",
+        "CodePostal":  26600,
+        "Categorie":  "Karting",
+        "Latitude":  45.02208,
+        "Longitude":  4.862381,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Mistral Kart",
+        "Ville":  "Montélimar",
+        "CodePostal":  26200,
+        "Categorie":  "Karting",
+        "Latitude":  44.553424,
+        "Longitude":  4.745639,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "XTrem Valence",
+        "Ville":  "Valence",
+        "CodePostal":  26000,
+        "Categorie":  "Karting",
+        "Latitude":  44.922579,
+        "Longitude":  4.921827,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting du Laquais",
+        "Ville":  "Champier",
+        "CodePostal":  38260,
+        "Categorie":  "Karting",
+        "Latitude":  45.456601,
+        "Longitude":  5.291337,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Crolles",
+        "Ville":  "Crolles",
+        "CodePostal":  38920,
+        "Categorie":  "Karting",
+        "Latitude":  45.283529,
+        "Longitude":  5.883069,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Green Kart",
+        "Ville":  "Échirolles",
+        "CodePostal":  38130,
+        "Categorie":  "Karting",
+        "Latitude":  45.152125,
+        "Longitude":  5.721042,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "E-KART\u0027IN PARK",
+        "Ville":  "Andrézieux-Bouthéon",
+        "CodePostal":  42160,
+        "Categorie":  "Karting",
+        "Latitude":  45.532152,
+        "Longitude":  4.28067,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Saint-Etienne",
+        "Ville":  "Andrézieux-Bouthéon",
+        "CodePostal":  42160,
+        "Categorie":  "Karting",
+        "Latitude":  45.538152,
+        "Longitude":  4.28667,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Léopard",
+        "Ville":  "Andrézieux-Bouthéon",
+        "CodePostal":  42160,
+        "Categorie":  "Karting",
+        "Latitude":  45.544152,
+        "Longitude":  4.29267,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting - Performances Drive",
+        "Ville":  "Saint-Cyprien",
+        "CodePostal":  42160,
+        "Categorie":  "Karting",
+        "Latitude":  45.541195,
+        "Longitude":  4.23503,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "AS Karting Puma Forez",
+        "Ville":  "Savigneux",
+        "CodePostal":  42600,
+        "Categorie":  "Karting",
+        "Latitude":  45.624044,
+        "Longitude":  4.094912,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Association Sportive Karting Villars",
+        "Ville":  "Villars",
+        "CodePostal":  42390,
+        "Categorie":  "Karting",
+        "Latitude":  45.465949,
+        "Longitude":  4.356583,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Weekart",
+        "Ville":  "Lantriac",
+        "CodePostal":  43260,
+        "Categorie":  "Karting",
+        "Latitude":  44.99037,
+        "Longitude":  4.001364,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Escale",
+        "Ville":  "Bort-l\u0027Étang",
+        "CodePostal":  63190,
+        "Categorie":  "Karting",
+        "Latitude":  45.783385,
+        "Longitude":  3.440789,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Sensation",
+        "Ville":  "Bourg-Lastic",
+        "CodePostal":  63760,
+        "Categorie":  "Karting",
+        "Latitude":  45.655105,
+        "Longitude":  2.570647,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Speed2Max",
+        "Ville":  "Clermont-Ferrand",
+        "CodePostal":  63000,
+        "Categorie":  "Karting",
+        "Latitude":  45.786671,
+        "Longitude":  3.107055,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "LSKart",
+        "Ville":  "Mur-sur-Allier",
+        "CodePostal":  63111,
+        "Categorie":  "Karting",
+        "Latitude":  45.765806,
+        "Longitude":  3.242895,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Sarron",
+        "Ville":  "Riom",
+        "CodePostal":  63200,
+        "Categorie":  "Karting",
+        "Latitude":  45.891454,
+        "Longitude":  3.13187,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Origins",
+        "Ville":  "Corbas",
+        "CodePostal":  69960,
+        "Categorie":  "Karting",
+        "Latitude":  45.666017,
+        "Longitude":  4.909309,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Lyon-Mornant",
+        "Ville":  "Mornant",
+        "CodePostal":  69440,
+        "Categorie":  "Karting",
+        "Latitude":  45.613266,
+        "Longitude":  4.675025,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting du Grand Arc",
+        "Ville":  "Tournon",
+        "CodePostal":  73460,
+        "Categorie":  "Karting",
+        "Latitude":  45.637764,
+        "Longitude":  6.329355,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Nexus 73 – Karting Electrique",
+        "Ville":  "Voglans",
+        "CodePostal":  73420,
+        "Categorie":  "Karting",
+        "Latitude":  45.627331,
+        "Longitude":  5.890637,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting du Mont-Blanc",
+        "Ville":  "Passy",
+        "CodePostal":  74190,
+        "Categorie":  "Karting",
+        "Latitude":  45.925787,
+        "Longitude":  6.703807,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Évasion",
+        "Ville":  "Rumilly",
+        "CodePostal":  74150,
+        "Categorie":  "Karting",
+        "Latitude":  45.855395,
+        "Longitude":  5.937296,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "KartParc",
+        "Ville":  "Thônes",
+        "CodePostal":  74230,
+        "Categorie":  "Karting",
+        "Latitude":  45.883413,
+        "Longitude":  6.323024,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Auxois Sud",
+        "Ville":  "Meilly-sur-Rouvres",
+        "CodePostal":  21320,
+        "Categorie":  "Karting",
+        "Latitude":  47.207192,
+        "Longitude":  4.563647,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting 2 Noiron",
+        "Ville":  "Noiron-sous-Gevrey",
+        "CodePostal":  21910,
+        "Categorie":  "Karting",
+        "Latitude":  47.193535,
+        "Longitude":  5.080516,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Dijon-Prenois Karting",
+        "Ville":  "Prenois",
+        "CodePostal":  21370,
+        "Categorie":  "Karting",
+        "Latitude":  47.376367,
+        "Longitude":  4.896843,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Puissance Kart Indoor",
+        "Ville":  "Audincourt",
+        "CodePostal":  25400,
+        "Categorie":  "Karting",
+        "Latitude":  47.485572,
+        "Longitude":  6.852659,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Besançon",
+        "Ville":  "Miserey-Salines",
+        "CodePostal":  25480,
+        "Categorie":  "Karting",
+        "Latitude":  47.289562,
+        "Longitude":  5.977676,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de l\u0027Enclos - Piste Location",
+        "Ville":  "Septfontaines",
+        "CodePostal":  25270,
+        "Categorie":  "Karting",
+        "Latitude":  46.982639,
+        "Longitude":  6.183956,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Jura Sud",
+        "Ville":  "Moirans-en-Montagne",
+        "CodePostal":  39260,
+        "Categorie":  "Karting",
+        "Latitude":  46.431447,
+        "Longitude":  5.724531,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Cosne Karting",
+        "Ville":  "Cosne-Cours-sur-Loire",
+        "CodePostal":  58200,
+        "Categorie":  "Karting",
+        "Latitude":  47.407726,
+        "Longitude":  2.93582,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de Nevers Magny-Cours",
+        "Ville":  "Magny-Cours",
+        "CodePostal":  58470,
+        "Categorie":  "Karting",
+        "Latitude":  46.887084,
+        "Longitude":  3.152141,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de la Vallée",
+        "Ville":  "Pusey",
+        "CodePostal":  70000,
+        "Categorie":  "Karting",
+        "Latitude":  47.651647,
+        "Longitude":  6.126503,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "LKS Karting",
+        "Ville":  "Champforgeuil",
+        "CodePostal":  71530,
+        "Categorie":  "Karting",
+        "Latitude":  46.820446,
+        "Longitude":  4.844893,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart71",
+        "Ville":  "Dracy-le-Fort",
+        "CodePostal":  71640,
+        "Categorie":  "Karting",
+        "Latitude":  46.798566,
+        "Longitude":  4.7712,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Alcava Gueugnonnais",
+        "Ville":  "Gueugnon",
+        "CodePostal":  71130,
+        "Categorie":  "Karting",
+        "Latitude":  46.592481,
+        "Longitude":  4.052636,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Central Team",
+        "Ville":  "Sevrey",
+        "CodePostal":  71100,
+        "Categorie":  "Karting",
+        "Latitude":  46.735761,
+        "Longitude":  4.837936,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Indoor Auxerre",
+        "Ville":  "Auxerre",
+        "CodePostal":  89000,
+        "Categorie":  "Karting",
+        "Latitude":  47.790189,
+        "Longitude":  3.580299,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Made in Kart",
+        "Ville":  "Joigny",
+        "CodePostal":  89300,
+        "Categorie":  "Karting",
+        "Latitude":  47.977862,
+        "Longitude":  3.398191,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart90",
+        "Ville":  "Chèvremont",
+        "CodePostal":  90340,
+        "Categorie":  "Karting",
+        "Latitude":  47.626817,
+        "Longitude":  6.920849,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Go Kart 90",
+        "Ville":  "Danjoutin",
+        "CodePostal":  90400,
+        "Categorie":  "Karting",
+        "Latitude":  47.617253,
+        "Longitude":  6.861071,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Bretagne Karting",
+        "Ville":  "Combrit",
+        "CodePostal":  29120,
+        "Categorie":  "Karting",
+        "Latitude":  47.890349,
+        "Longitude":  -4.157385,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Rennes",
+        "Ville":  "Cesson-Sévigné",
+        "CodePostal":  35510,
+        "Categorie":  "Karting",
+        "Latitude":  48.123772,
+        "Longitude":  -1.596972,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Rennes",
+        "Ville":  "La Mézière",
+        "CodePostal":  35520,
+        "Categorie":  "Karting",
+        "Latitude":  48.219325,
+        "Longitude":  -1.74047,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Saint-Malo",
+        "Ville":  "Saint-Méloir-des-Ondes",
+        "CodePostal":  35350,
+        "Categorie":  "Karting",
+        "Latitude":  48.638594,
+        "Longitude":  -1.903153,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de Guillac",
+        "Ville":  "Guillac",
+        "CodePostal":  56800,
+        "Categorie":  "Karting",
+        "Latitude":  47.923215,
+        "Longitude":  -2.486505,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Center",
+        "Ville":  "Pluméliau",
+        "CodePostal":  56310,
+        "Categorie":  "Karting",
+        "Latitude":  47.970027,
+        "Longitude":  -2.995378,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Vannes",
+        "Ville":  "Vannes",
+        "CodePostal":  56000,
+        "Categorie":  "Karting",
+        "Latitude":  47.659971,
+        "Longitude":  -2.752192,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Saint-Amand",
+        "Ville":  "Colombiers",
+        "CodePostal":  18200,
+        "Categorie":  "Karting",
+        "Latitude":  46.698659,
+        "Longitude":  2.543731,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Ledoux Karting",
+        "Ville":  "Levet",
+        "CodePostal":  18340,
+        "Categorie":  "Karting",
+        "Latitude":  46.933345,
+        "Longitude":  2.391345,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Bourges",
+        "Ville":  "Saint-Doulchard",
+        "CodePostal":  18230,
+        "Categorie":  "Karting",
+        "Latitude":  47.108769,
+        "Longitude":  2.363377,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Arena Bourges",
+        "Ville":  "Saint-Germain-du-Puy",
+        "CodePostal":  18390,
+        "Categorie":  "Karting",
+        "Latitude":  47.101697,
+        "Longitude":  2.472555,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Paris-Ouest-Dreux",
+        "Ville":  "Dreux",
+        "CodePostal":  28100,
+        "Categorie":  "Karting",
+        "Latitude":  48.745749,
+        "Longitude":  1.36554,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuits Paris Ouest",
+        "Ville":  "Dreux",
+        "CodePostal":  28100,
+        "Categorie":  "Karting",
+        "Latitude":  48.751749,
+        "Longitude":  1.37154,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Dunois Kart",
+        "Ville":  "Villemaury",
+        "CodePostal":  28200,
+        "Categorie":  "Karting",
+        "Latitude":  48.041568,
+        "Longitude":  1.443809,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de l\u0027Indre",
+        "Ville":  "Clion",
+        "CodePostal":  36700,
+        "Categorie":  "Karting",
+        "Latitude":  46.94581,
+        "Longitude":  1.230525,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Base US Karting",
+        "Ville":  "Étrechet",
+        "CodePostal":  36120,
+        "Categorie":  "Karting",
+        "Latitude":  46.784024,
+        "Longitude":  1.784829,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Center Tours",
+        "Ville":  "La Ville-aux-Dames",
+        "CodePostal":  37700,
+        "Categorie":  "Karting",
+        "Latitude":  47.392924,
+        "Longitude":  0.770368,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Parc de Loisirs de L\u0027Escotais",
+        "Ville":  "Neuillé-Pont-Pierre",
+        "CodePostal":  37360,
+        "Categorie":  "Karting",
+        "Latitude":  47.551764,
+        "Longitude":  0.549332,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "GP Kart Concept",
+        "Ville":  "Landes-le-Gaulois",
+        "CodePostal":  41190,
+        "Categorie":  "Karting",
+        "Latitude":  47.651493,
+        "Longitude":  1.172593,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Sologne Karting",
+        "Ville":  "Salbris",
+        "CodePostal":  41300,
+        "Categorie":  "Karting",
+        "Latitude":  47.417467,
+        "Longitude":  2.047325,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Orléans",
+        "Ville":  "Fleury-les-Aubrais",
+        "CodePostal":  45400,
+        "Categorie":  "Karting",
+        "Latitude":  47.933752,
+        "Longitude":  1.918736,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting 45",
+        "Ville":  "Saint-Benoît-sur-Loire",
+        "CodePostal":  45730,
+        "Categorie":  "Karting",
+        "Latitude":  47.811894,
+        "Longitude":  2.31823,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de la Gravona",
+        "Ville":  "Tavaco",
+        "CodePostal":  20167,
+        "Categorie":  "Karting",
+        "Latitude":  42.025609,
+        "Longitude":  8.896295,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Lonny",
+        "Ville":  "Lonny",
+        "CodePostal":  8150,
+        "Categorie":  "Karting",
+        "Latitude":  49.816359,
+        "Longitude":  4.58638,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "DB KARTING",
+        "Ville":  "Saint-Lyé",
+        "CodePostal":  10180,
+        "Categorie":  "Karting",
+        "Latitude":  48.350564,
+        "Longitude":  3.989855,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Belval",
+        "Ville":  "Belval-sous-Châtillon",
+        "CodePostal":  51480,
+        "Categorie":  "Karting",
+        "Latitude":  49.128846,
+        "Longitude":  3.854562,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart\u0027Race",
+        "Ville":  "Witry-lès-Reims",
+        "CodePostal":  51420,
+        "Categorie":  "Karting",
+        "Latitude":  49.286269,
+        "Longitude":  4.106283,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart 52",
+        "Ville":  "Foulain",
+        "CodePostal":  52000,
+        "Categorie":  "Karting",
+        "Latitude":  48.037744,
+        "Longitude":  5.209981,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Sud Toulois",
+        "Ville":  "Barisey-au-Plain",
+        "CodePostal":  54170,
+        "Categorie":  "Karting",
+        "Latitude":  48.526247,
+        "Longitude":  5.841545,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "NTKart",
+        "Ville":  "Lexy",
+        "CodePostal":  54720,
+        "Categorie":  "Karting",
+        "Latitude":  49.504892,
+        "Longitude":  5.729191,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SKLC 55 Karting Loisir",
+        "Ville":  "Chaumont-sur-Aire",
+        "CodePostal":  55260,
+        "Categorie":  "Karting",
+        "Latitude":  48.927118,
+        "Longitude":  5.25702,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Piste Kart Lommerange",
+        "Ville":  "Lommerange",
+        "CodePostal":  57650,
+        "Categorie":  "Karting",
+        "Latitude":  49.330416,
+        "Longitude":  5.967452,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Pôle Karting de Meisenthal",
+        "Ville":  "Meisenthal",
+        "CodePostal":  57960,
+        "Categorie":  "Karting",
+        "Latitude":  48.968015,
+        "Longitude":  7.352525,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Metz",
+        "Ville":  "Metz",
+        "CodePostal":  57000,
+        "Categorie":  "Karting",
+        "Latitude":  49.108385,
+        "Longitude":  6.194891,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "WATTKART",
+        "Ville":  "Phalsbourg",
+        "CodePostal":  57370,
+        "Categorie":  "Karting",
+        "Latitude":  48.765612,
+        "Longitude":  7.2622,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "STRAS KART",
+        "Ville":  "Eckbolsheim",
+        "CodePostal":  67201,
+        "Categorie":  "Karting",
+        "Latitude":  48.579682,
+        "Longitude":  7.687329,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Indoor Chrono",
+        "Ville":  "Fegersheim",
+        "CodePostal":  67640,
+        "Categorie":  "Karting",
+        "Latitude":  48.492705,
+        "Longitude":  7.689347,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Selest\u0027Kart-IN",
+        "Ville":  "Sélestat",
+        "CodePostal":  67600,
+        "Categorie":  "Karting",
+        "Latitude":  48.263968,
+        "Longitude":  7.451766,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Sundgau Karting",
+        "Ville":  "Steinsoultz",
+        "CodePostal":  68640,
+        "Categorie":  "Karting",
+        "Latitude":  47.551933,
+        "Longitude":  7.335419,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Mulhouse",
+        "Ville":  "Wittenheim",
+        "CodePostal":  68270,
+        "Categorie":  "Karting",
+        "Latitude":  47.814198,
+        "Longitude":  7.321897,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Club de Charmes",
+        "Ville":  "Charmes",
+        "CodePostal":  88130,
+        "Categorie":  "Karting",
+        "Latitude":  48.367974,
+        "Longitude":  6.286458,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Manacha Kart",
+        "Ville":  "Gerbépal",
+        "CodePostal":  88430,
+        "Categorie":  "Karting",
+        "Latitude":  48.126363,
+        "Longitude":  6.914925,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "L\u0027Indy Kart",
+        "Ville":  "Le Ménil",
+        "CodePostal":  88160,
+        "Categorie":  "Karting",
+        "Latitude":  47.912703,
+        "Longitude":  6.799513,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Le Kart",
+        "Ville":  "Saint-Gorgon",
+        "CodePostal":  88700,
+        "Categorie":  "Karting",
+        "Latitude":  48.32491,
+        "Longitude":  6.646003,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karukera Karting Cup",
+        "Ville":  "Baie-Mahault",
+        "CodePostal":  97122,
+        "Categorie":  "Karting",
+        "Latitude":  16.245166,
+        "Longitude":  -61.594891,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Guyane",
+        "Ville":  "Macouria",
+        "CodePostal":  97355,
+        "Categorie":  "Karting",
+        "Latitude":  4.981053,
+        "Longitude":  -52.483428,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "MaraiKart",
+        "Ville":  "Bucy-le-Long",
+        "CodePostal":  2880,
+        "Categorie":  "Karting",
+        "Latitude":  49.387117,
+        "Longitude":  3.397161,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Folembray Arena",
+        "Ville":  "Folembray",
+        "CodePostal":  2670,
+        "Categorie":  "Karting",
+        "Latitude":  49.543419,
+        "Longitude":  3.288126,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Hirson",
+        "Ville":  "Hirson",
+        "CodePostal":  2500,
+        "Categorie":  "Karting",
+        "Latitude":  49.920487,
+        "Longitude":  4.080538,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Valenciennes",
+        "Ville":  "Anzin",
+        "CodePostal":  59410,
+        "Categorie":  "Karting",
+        "Latitude":  50.375338,
+        "Longitude":  3.51069,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "King Kart / King Bowling",
+        "Ville":  "Caudry",
+        "CodePostal":  59540,
+        "Categorie":  "Karting",
+        "Latitude":  50.121477,
+        "Longitude":  3.419012,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Coudekerque",
+        "Ville":  "Coudekerque-Branche",
+        "CodePostal":  59210,
+        "Categorie":  "Karting",
+        "Latitude":  51.018714,
+        "Longitude":  2.388025,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Lille Karting",
+        "Ville":  "Ennetières-en-Weppes",
+        "CodePostal":  59320,
+        "Categorie":  "Karting",
+        "Latitude":  50.644245,
+        "Longitude":  2.936148,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Club Gravelinois",
+        "Ville":  "Gravelines",
+        "CodePostal":  59820,
+        "Categorie":  "Karting",
+        "Latitude":  50.991459,
+        "Longitude":  2.134164,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Jaux Compiègne",
+        "Ville":  "Jaux",
+        "CodePostal":  60880,
+        "Categorie":  "Karting",
+        "Latitude":  49.392238,
+        "Longitude":  2.761945,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Loisirs Neuilly",
+        "Ville":  "Neuilly-sous-Clermont",
+        "CodePostal":  60290,
+        "Categorie":  "Karting",
+        "Latitude":  49.349325,
+        "Longitude":  2.414609,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "RLS Karting",
+        "Ville":  "Rochy-Condé",
+        "CodePostal":  60510,
+        "Categorie":  "Karting",
+        "Latitude":  49.404959,
+        "Longitude":  2.182316,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Opale Karting / Ducas Racing Kart",
+        "Ville":  "Berck",
+        "CodePostal":  62600,
+        "Categorie":  "Karting",
+        "Latitude":  50.411178,
+        "Longitude":  1.58198,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "KLL Loisirs",
+        "Ville":  "Douvrin",
+        "CodePostal":  62138,
+        "Categorie":  "Karting",
+        "Latitude":  50.514004,
+        "Longitude":  2.824373,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Henin-Beaumont",
+        "Ville":  "Hénin-Beaumont",
+        "CodePostal":  62110,
+        "Categorie":  "Karting",
+        "Latitude":  50.426666,
+        "Longitude":  2.957562,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "ASK Abbeville Somme Karting",
+        "Ville":  "Abbeville",
+        "CodePostal":  80100,
+        "Categorie":  "Karting",
+        "Latitude":  50.105799,
+        "Longitude":  1.828902,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Stadium Automobile",
+        "Ville":  "Abbeville",
+        "CodePostal":  80100,
+        "Categorie":  "Karting",
+        "Latitude":  50.111799,
+        "Longitude":  1.834902,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Haute Picardie",
+        "Ville":  "Arvillers",
+        "CodePostal":  80910,
+        "Categorie":  "Karting",
+        "Latitude":  49.739997,
+        "Longitude":  2.6462,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Picardia Games Park / BattleKart",
+        "Ville":  "Croixrault",
+        "CodePostal":  80290,
+        "Categorie":  "Karting",
+        "Latitude":  49.791646,
+        "Longitude":  1.990661,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Paris-Dammartin",
+        "Ville":  "Saint-Mard",
+        "CodePostal":  77230,
+        "Categorie":  "Karting",
+        "Latitude":  49.037198,
+        "Longitude":  2.691925,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Val d\u0027Europe",
+        "Ville":  "Serris",
+        "CodePostal":  77700,
+        "Categorie":  "Karting",
+        "Latitude":  48.846958,
+        "Longitude":  2.784749,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Conflans Ste Honorine",
+        "Ville":  "Conflans-Sainte-Honorine",
+        "CodePostal":  78700,
+        "Categorie":  "Karting",
+        "Latitude":  49.000025,
+        "Longitude":  2.099679,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Saint Quentin en Yvelines",
+        "Ville":  "Montigny-le-Bretonneux",
+        "CodePostal":  78180,
+        "Categorie":  "Karting",
+        "Latitude":  48.785563,
+        "Longitude":  2.039014,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "RKO",
+        "Ville":  "Angerville",
+        "CodePostal":  91670,
+        "Categorie":  "Karting",
+        "Latitude":  48.305797,
+        "Longitude":  1.99634,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Paris-Sud-Massy",
+        "Ville":  "Champlan",
+        "CodePostal":  91160,
+        "Categorie":  "Karting",
+        "Latitude":  48.707507,
+        "Longitude":  2.277017,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "karting93",
+        "Ville":  "Aulnay-sous-Bois",
+        "CodePostal":  93600,
+        "Categorie":  "Karting",
+        "Latitude":  48.946735,
+        "Longitude":  2.503929,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Paris-Nord-Villepinte",
+        "Ville":  "Villepinte",
+        "CodePostal":  93420,
+        "Categorie":  "Karting",
+        "Latitude":  48.956508,
+        "Longitude":  2.532434,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Aerokart",
+        "Ville":  "Argenteuil",
+        "CodePostal":  95100,
+        "Categorie":  "Karting",
+        "Latitude":  48.948465,
+        "Longitude":  2.248202,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "RKC Karting Paris",
+        "Ville":  "Boissy-l\u0027Aillerie",
+        "CodePostal":  95650,
+        "Categorie":  "Karting",
+        "Latitude":  49.075236,
+        "Longitude":  2.028827,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "MEGA KART",
+        "Ville":  "Saint-Louis",
+        "CodePostal":  97421,
+        "Categorie":  "Karting",
+        "Latitude":  -21.249177,
+        "Longitude":  55.423795,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart\u0027in 974",
+        "Ville":  "Saint-Pierre",
+        "CodePostal":  97410,
+        "Categorie":  "Karting",
+        "Latitude":  -21.307722,
+        "Longitude":  55.491803,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de la Jamaïque",
+        "Ville":  "Sainte-Clotilde",
+        "CodePostal":  97400,
+        "Categorie":  "Karting",
+        "Latitude":  -20.909778,
+        "Longitude":  55.444588,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Acro\u0027Kart",
+        "Ville":  "Les Trois-Îlets",
+        "CodePostal":  97229,
+        "Categorie":  "Karting",
+        "Latitude":  14.541047,
+        "Longitude":  -61.04044,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Team Active – Circuit de Cabourg",
+        "Ville":  "Cabourg",
+        "CodePostal":  14390,
+        "Categorie":  "Karting",
+        "Latitude":  49.286373,
+        "Longitude":  -0.125678,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting PaintBall 14 (KPB14)",
+        "Ville":  "Marolles",
+        "CodePostal":  14100,
+        "Categorie":  "Karting",
+        "Latitude":  49.138487,
+        "Longitude":  0.375836,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Team Active – Circuit de Ouistreham",
+        "Ville":  "Ouistreham",
+        "CodePostal":  14150,
+        "Categorie":  "Karting",
+        "Latitude":  49.274465,
+        "Longitude":  -0.260058,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Technikart",
+        "Ville":  "Saint-Pierre-sur-Dives",
+        "CodePostal":  14160,
+        "Categorie":  "Karting",
+        "Latitude":  49.283371,
+        "Longitude":  -0.08897,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Team Active Karting Deauville",
+        "Ville":  "Saint-Arnoult",
+        "CodePostal":  14800,
+        "Categorie":  "Karting",
+        "Latitude":  49.330646,
+        "Longitude":  0.089034,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de La Hague",
+        "Ville":  "Gréville-Hague",
+        "CodePostal":  50340,
+        "Categorie":  "Karting",
+        "Latitude":  49.560427,
+        "Longitude":  -1.82679,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Rival\u0027Karting",
+        "Ville":  "Le Neufbourg",
+        "CodePostal":  50140,
+        "Categorie":  "Karting",
+        "Latitude":  48.660105,
+        "Longitude":  -0.946516,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit du Parc",
+        "Ville":  "Le Parc",
+        "CodePostal":  50870,
+        "Categorie":  "Karting",
+        "Latitude":  48.756723,
+        "Longitude":  -1.286474,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SMKart#50",
+        "Ville":  "Lessay",
+        "CodePostal":  50430,
+        "Categorie":  "Karting",
+        "Latitude":  49.22443,
+        "Longitude":  -1.525736,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Ouest Karting",
+        "Ville":  "Aunay-les-Bois",
+        "CodePostal":  61500,
+        "Categorie":  "Karting",
+        "Latitude":  48.545022,
+        "Longitude":  0.292534,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Lucien Lebret",
+        "Ville":  "Anneville-Ambourville",
+        "CodePostal":  76480,
+        "Categorie":  "Karting",
+        "Latitude":  49.453333,
+        "Longitude":  0.887494,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Le City / BattleKart Le Havre",
+        "Ville":  "Le Havre",
+        "CodePostal":  76600,
+        "Categorie":  "Karting",
+        "Latitude":  49.513345,
+        "Longitude":  0.135995,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de l\u0027Europe",
+        "Ville":  "Sotteville-sous-le-Val",
+        "CodePostal":  76410,
+        "Categorie":  "Karting",
+        "Latitude":  49.319583,
+        "Longitude":  1.115381,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Normandie Karting",
+        "Ville":  "Val-de-la-Haye",
+        "CodePostal":  76380,
+        "Categorie":  "Karting",
+        "Latitude":  49.38351,
+        "Longitude":  1.002903,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Angoulême Kart Indoor",
+        "Ville":  "Angoulême",
+        "CodePostal":  16000,
+        "Categorie":  "Karting",
+        "Latitude":  45.644105,
+        "Longitude":  0.148008,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "i.TekKarting",
+        "Ville":  "Champniers",
+        "CodePostal":  16430,
+        "Categorie":  "Karting",
+        "Latitude":  45.715403,
+        "Longitude":  0.201438,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Passion Karting 16",
+        "Ville":  "La Rochefoucauld",
+        "CodePostal":  16110,
+        "Categorie":  "Karting",
+        "Latitude":  45.735444,
+        "Longitude":  0.371541,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Aunis Karting",
+        "Ville":  "Aigrefeuille-d\u0027Aunis",
+        "CodePostal":  17290,
+        "Categorie":  "Karting",
+        "Latitude":  46.120805,
+        "Longitude":  -0.941821,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Saintes",
+        "Ville":  "Les Gonds",
+        "CodePostal":  17100,
+        "Categorie":  "Karting",
+        "Latitude":  45.709502,
+        "Longitude":  -0.61099,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Royan",
+        "Ville":  "Royan",
+        "CodePostal":  17200,
+        "Categorie":  "Karting",
+        "Latitude":  45.634186,
+        "Longitude":  -1.017415,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Passion Karting 17",
+        "Ville":  "Saint-Jean-d\u0027Angély",
+        "CodePostal":  17400,
+        "Categorie":  "Karting",
+        "Latitude":  45.942512,
+        "Longitude":  -0.521692,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "JCS Karting Parc",
+        "Ville":  "Lubersac",
+        "CodePostal":  19210,
+        "Categorie":  "Karting",
+        "Latitude":  45.450444,
+        "Longitude":  1.402089,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting City Périgord Noir",
+        "Ville":  "Journiac",
+        "CodePostal":  24260,
+        "Categorie":  "Karting",
+        "Latitude":  44.967599,
+        "Longitude":  0.881667,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Saint-Geniès",
+        "Ville":  "Saint-Geniès",
+        "CodePostal":  24590,
+        "Categorie":  "Karting",
+        "Latitude":  45.003326,
+        "Longitude":  1.257046,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Topgun Evasion",
+        "Ville":  "Biganos",
+        "CodePostal":  33380,
+        "Categorie":  "Karting",
+        "Latitude":  44.64819,
+        "Longitude":  -0.949103,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "A.S. Karting d\u0027Étauliers",
+        "Ville":  "Étauliers",
+        "CodePostal":  33820,
+        "Categorie":  "Karting",
+        "Latitude":  45.220535,
+        "Longitude":  -0.573446,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Arcachon",
+        "Ville":  "La Teste-de-Buch",
+        "CodePostal":  33115,
+        "Categorie":  "Karting",
+        "Latitude":  44.616272,
+        "Longitude":  -1.157052,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "KART SYSTEM",
+        "Ville":  "Mérignac",
+        "CodePostal":  33700,
+        "Categorie":  "Karting",
+        "Latitude":  44.83937,
+        "Longitude":  -0.668682,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Bordeaux",
+        "Ville":  "Villenave-d\u0027Ornon",
+        "CodePostal":  33140,
+        "Categorie":  "Karting",
+        "Latitude":  44.77508,
+        "Longitude":  -0.55453,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Center Biscarrosse",
+        "Ville":  "Biscarrosse",
+        "CodePostal":  40600,
+        "Categorie":  "Karting",
+        "Latitude":  44.430297,
+        "Longitude":  -1.187456,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting du Gaillou",
+        "Ville":  "Capbreton",
+        "CodePostal":  40130,
+        "Categorie":  "Karting",
+        "Latitude":  43.638825,
+        "Longitude":  -1.420069,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Kart Landes 40",
+        "Ville":  "Escource",
+        "CodePostal":  40210,
+        "Categorie":  "Karting",
+        "Latitude":  44.166889,
+        "Longitude":  -1.036042,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Magescq",
+        "Ville":  "Magescq",
+        "CodePostal":  40140,
+        "Categorie":  "Karting",
+        "Latitude":  43.772768,
+        "Longitude":  -1.209621,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "LF Karting",
+        "Ville":  "Layrac",
+        "CodePostal":  47390,
+        "Categorie":  "Karting",
+        "Latitude":  44.11852,
+        "Longitude":  0.652054,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Côte Basque",
+        "Ville":  "Briscous",
+        "CodePostal":  64240,
+        "Categorie":  "Karting",
+        "Latitude":  43.459633,
+        "Longitude":  -1.329962,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Loisirs O\u0027 d\u0027Espoey",
+        "Ville":  "Espoey",
+        "CodePostal":  64420,
+        "Categorie":  "Karting",
+        "Latitude":  43.246744,
+        "Longitude":  -0.15817,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Berdery",
+        "Ville":  "Lescar",
+        "CodePostal":  64230,
+        "Categorie":  "Karting",
+        "Latitude":  43.33903,
+        "Longitude":  -0.426535,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting 79",
+        "Ville":  "Chauray",
+        "CodePostal":  79180,
+        "Categorie":  "Karting",
+        "Latitude":  46.357055,
+        "Longitude":  -0.388829,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit du Val d\u0027Argenton",
+        "Ville":  "Le Breuil-sous-Argenton",
+        "CodePostal":  79150,
+        "Categorie":  "Karting",
+        "Latitude":  46.952632,
+        "Longitude":  -0.410872,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit de la Boule d\u0027Or",
+        "Ville":  "Bournand",
+        "CodePostal":  86120,
+        "Categorie":  "Karting",
+        "Latitude":  47.080825,
+        "Longitude":  0.077545,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "New Kart Poitiers",
+        "Ville":  "Migné-Auxances",
+        "CodePostal":  86440,
+        "Categorie":  "Karting",
+        "Latitude":  46.623612,
+        "Longitude":  0.309819,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "RMT Karting",
+        "Ville":  "Limoges",
+        "CodePostal":  87000,
+        "Categorie":  "Karting",
+        "Latitude":  45.856159,
+        "Longitude":  1.221254,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit des Renardières",
+        "Ville":  "Pageas",
+        "CodePostal":  87230,
+        "Categorie":  "Karting",
+        "Latitude":  45.685501,
+        "Longitude":  1.016444,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Nakutakoin",
+        "Ville":  "Dumbéa",
+        "CodePostal":  98835,
+        "Categorie":  "Karting",
+        "Latitude":  -22.16711,
+        "Longitude":  166.457142,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Base de loisirs Le Kart\u0027Are",
+        "Ville":  "Aigues-Vives",
+        "CodePostal":  9600,
+        "Categorie":  "Karting",
+        "Latitude":  42.995515,
+        "Longitude":  1.875719,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "WIN\u0027KART",
+        "Ville":  "Carcassonne",
+        "CodePostal":  11000,
+        "Categorie":  "Karting",
+        "Latitude":  43.206781,
+        "Longitude":  2.349415,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Sunkart Gruissan",
+        "Ville":  "Gruissan",
+        "CodePostal":  11430,
+        "Categorie":  "Karting",
+        "Latitude":  43.117352,
+        "Longitude":  3.104624,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Plus Belmont",
+        "Ville":  "Belmont-sur-Rance",
+        "CodePostal":  12370,
+        "Categorie":  "Karting",
+        "Latitude":  43.826101,
+        "Longitude":  2.750651,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Game Off Road",
+        "Ville":  "Rodez",
+        "CodePostal":  12000,
+        "Categorie":  "Karting",
+        "Latitude":  44.359272,
+        "Longitude":  2.566732,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Racing Kart Beaucaire",
+        "Ville":  "Beaucaire",
+        "CodePostal":  30300,
+        "Categorie":  "Karting",
+        "Latitude":  43.786319,
+        "Longitude":  4.601599,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Sud Karting",
+        "Ville":  "Bouillargues",
+        "CodePostal":  30230,
+        "Categorie":  "Karting",
+        "Latitude":  43.803105,
+        "Longitude":  4.432606,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "La Calmette Karting",
+        "Ville":  "La Calmette",
+        "CodePostal":  30190,
+        "Categorie":  "Karting",
+        "Latitude":  43.924092,
+        "Longitude":  4.264447,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "NIMESKARTING",
+        "Ville":  "Milhaud",
+        "CodePostal":  30540,
+        "Categorie":  "Karting",
+        "Latitude":  43.78904,
+        "Longitude":  4.314801,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Toulouse-Blagnac",
+        "Ville":  "Blagnac",
+        "CodePostal":  31700,
+        "Categorie":  "Karting",
+        "Latitude":  43.63735,
+        "Longitude":  1.38326,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting 2 Muret",
+        "Ville":  "Muret",
+        "CodePostal":  31600,
+        "Categorie":  "Karting",
+        "Latitude":  43.446371,
+        "Longitude":  1.298368,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Midi-Pyrénées",
+        "Ville":  "Villefranche-de-Lauragais",
+        "CodePostal":  31290,
+        "Categorie":  "Karting",
+        "Latitude":  43.403266,
+        "Longitude":  1.714742,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting ELCEKA",
+        "Ville":  "Grabels",
+        "CodePostal":  34790,
+        "Categorie":  "Karting",
+        "Latitude":  43.652876,
+        "Longitude":  3.808524,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "MegaKart",
+        "Ville":  "Vias",
+        "CodePostal":  34450,
+        "Categorie":  "Karting",
+        "Latitude":  43.301474,
+        "Longitude":  3.395237,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karthors",
+        "Ville":  "Cieurac",
+        "CodePostal":  46230,
+        "Categorie":  "Karting",
+        "Latitude":  44.372612,
+        "Longitude":  1.496911,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Ludi Kart",
+        "Ville":  "Argelès-sur-Mer",
+        "CodePostal":  66700,
+        "Categorie":  "Karting",
+        "Latitude":  42.549618,
+        "Longitude":  3.025655,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Roussillon",
+        "Ville":  "Rivesaltes",
+        "CodePostal":  66600,
+        "Categorie":  "Karting",
+        "Latitude":  42.779616,
+        "Longitude":  2.883114,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Saint Cyprien",
+        "Ville":  "Saint-Cyprien",
+        "CodePostal":  66750,
+        "Categorie":  "Karting",
+        "Latitude":  42.619322,
+        "Longitude":  3.015165,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Albi Kart Expérience",
+        "Ville":  "Albi",
+        "CodePostal":  81000,
+        "Categorie":  "Karting",
+        "Latitude":  43.930374,
+        "Longitude":  2.136314,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Montauban",
+        "Ville":  "Montauban",
+        "CodePostal":  82000,
+        "Categorie":  "Karting",
+        "Latitude":  44.01984,
+        "Longitude":  1.362706,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "ASK Ancenis",
+        "Ville":  "Ancenis-Saint-Géréon",
+        "CodePostal":  44150,
+        "Categorie":  "Karting",
+        "Latitude":  47.385541,
+        "Longitude":  -1.197594,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "UP2PLAY Pornichet",
+        "Ville":  "Pornichet",
+        "CodePostal":  44380,
+        "Categorie":  "Karting",
+        "Latitude":  47.259148,
+        "Longitude":  -2.324189,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "RKJ - Racing Kart Jade",
+        "Ville":  "Saint-Michel-Chef-Chef",
+        "CodePostal":  44730,
+        "Categorie":  "Karting",
+        "Latitude":  47.173705,
+        "Longitude":  -2.129038,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Nantes",
+        "Ville":  "Saint-Sébastien-sur-Loire",
+        "CodePostal":  44230,
+        "Categorie":  "Karting",
+        "Latitude":  47.211355,
+        "Longitude":  -1.490678,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Speed Park Angers",
+        "Ville":  "Beaucouzé",
+        "CodePostal":  49070,
+        "Categorie":  "Karting",
+        "Latitude":  47.474128,
+        "Longitude":  -0.628861,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "GKL 53",
+        "Ville":  "Changé",
+        "CodePostal":  53810,
+        "Categorie":  "Karting",
+        "Latitude":  48.108825,
+        "Longitude":  -0.794647,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Cap Form Loisirs",
+        "Ville":  "Laval",
+        "CodePostal":  53000,
+        "Categorie":  "Karting",
+        "Latitude":  48.065541,
+        "Longitude":  -0.76559,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Beausoleil",
+        "Ville":  "Laval",
+        "CodePostal":  53000,
+        "Categorie":  "Karting",
+        "Latitude":  48.071541,
+        "Longitude":  -0.75959,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting du Nord Mayenne",
+        "Ville":  "Montreuil-Poulay",
+        "CodePostal":  53640,
+        "Categorie":  "Karting",
+        "Latitude":  48.387964,
+        "Longitude":  -0.53284,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting 24 Heures du Mans",
+        "Ville":  "Le Mans",
+        "CodePostal":  72000,
+        "Categorie":  "Karting",
+        "Latitude":  47.993335,
+        "Longitude":  0.191169,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "BattleKart Le-Mans",
+        "Ville":  "Spay",
+        "CodePostal":  72700,
+        "Categorie":  "Karting",
+        "Latitude":  47.919636,
+        "Longitude":  0.153267,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Circuit Philippe Alliot",
+        "Ville":  "Bellevigny",
+        "CodePostal":  85170,
+        "Categorie":  "Karting",
+        "Latitude":  46.785063,
+        "Longitude":  -1.42199,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Challans",
+        "Ville":  "Challans",
+        "CodePostal":  85300,
+        "Categorie":  "Karting",
+        "Latitude":  46.83053,
+        "Longitude":  -1.845829,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Vendée Kart",
+        "Ville":  "La Jonchère",
+        "CodePostal":  85540,
+        "Categorie":  "Karting",
+        "Latitude":  46.42821,
+        "Longitude":  -1.385559,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Atlantic Kart System",
+        "Ville":  "Les Sables-d\u0027Olonne",
+        "CodePostal":  85100,
+        "Categorie":  "Karting",
+        "Latitude":  46.524364,
+        "Longitude":  -1.765848,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "WEST AVENTURE",
+        "Ville":  "Saint-Révérend",
+        "CodePostal":  85220,
+        "Categorie":  "Karting",
+        "Latitude":  46.702054,
+        "Longitude":  -1.833716,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Manosque",
+        "Ville":  "Manosque",
+        "CodePostal":  4100,
+        "Categorie":  "Karting",
+        "Latitude":  43.826542,
+        "Longitude":  5.790238,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de Serre Chevalier",
+        "Ville":  "Saint-Chaffrey",
+        "CodePostal":  5330,
+        "Categorie":  "Karting",
+        "Latitude":  44.92986,
+        "Longitude":  6.596919,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "SpeedPark Cagnes-sur-Mer",
+        "Ville":  "Cagnes-sur-Mer",
+        "CodePostal":  6800,
+        "Categorie":  "Karting",
+        "Latitude":  43.675636,
+        "Longitude":  7.150092,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Cuges les Pins",
+        "Ville":  "Cuges-les-Pins",
+        "CodePostal":  13780,
+        "Categorie":  "Karting",
+        "Latitude":  43.269208,
+        "Longitude":  5.703805,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Seb Power Karting",
+        "Ville":  "Grans",
+        "CodePostal":  13450,
+        "Categorie":  "Karting",
+        "Latitude":  43.613294,
+        "Longitude":  5.064565,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Le Rove",
+        "Ville":  "Le Rove",
+        "CodePostal":  13740,
+        "Categorie":  "Karting",
+        "Latitude":  43.364546,
+        "Longitude":  5.24356,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "ASK Martigues",
+        "Ville":  "Martigues",
+        "CodePostal":  13117,
+        "Categorie":  "Karting",
+        "Latitude":  43.37718,
+        "Longitude":  5.050313,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting de l\u0027Etang",
+        "Ville":  "Rognac",
+        "CodePostal":  13340,
+        "Categorie":  "Karting",
+        "Latitude":  43.496377,
+        "Longitude":  5.221441,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Vallée de l\u0027Arc",
+        "Ville":  "Trets",
+        "CodePostal":  13530,
+        "Categorie":  "Karting",
+        "Latitude":  43.449651,
+        "Longitude":  5.684567,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "GKL Grimaud Karting Loisir",
+        "Ville":  "Grimaud",
+        "CodePostal":  83310,
+        "Categorie":  "Karting",
+        "Latitude":  43.282277,
+        "Longitude":  6.545027,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Speedkart",
+        "Ville":  "Hyères",
+        "CodePostal":  83400,
+        "Categorie":  "Karting",
+        "Latitude":  43.116731,
+        "Longitude":  6.20255,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Karting Circuit Paul Ricard",
+        "Ville":  "Le Castellet",
+        "CodePostal":  83330,
+        "Categorie":  "Karting",
+        "Latitude":  43.211239,
+        "Longitude":  5.77,
+        "Couleur":  "orange"
+    },
+    {
+        "Nom":  "Monteux Karting",
+        "Ville":  "Monteux",
+        "CodePostal":  84170,
+        "Categorie":  "Karting",
+        "Latitude":  44.029925,
+        "Longitude":  4.986176,
+        "Couleur":  "orange"
+    }
+]

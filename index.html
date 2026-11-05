@@ -5,7 +5,7 @@
 <title>Carte Karting France</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
 <style>
 body { margin:0; font-family:Arial; }
@@ -44,6 +44,30 @@ body { margin:0; font-family:Arial; }
   cursor:pointer;
 }
 
+#filtres {
+  position:absolute;
+  top:80px;
+  left:50%;
+  transform:translateX(-50%);
+  display:flex;
+  gap:10px;
+  z-index:999;
+}
+.pastille {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:white;
+  border:2px solid transparent;
+  border-radius:20px;
+  padding:8px 14px;
+  font-size:14px;
+  cursor:pointer;
+  box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+.pastille .rond { width:16px; height:16px; border-radius:50%; }
+.pastille.actif { border-color:#333; font-weight:bold; }
+
 #voirAutour {
   position:absolute;
   bottom:25px;
@@ -58,6 +82,43 @@ body { margin:0; font-family:Arial; }
   display:none;
   z-index:2000;
 }
+
+/* 🌍 cadre outre-mer */
+#cadreMonde {
+  position:absolute;
+  left:12px;
+  bottom:25px;
+  width:190px;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.25);
+  overflow:hidden;
+  cursor:pointer;
+  z-index:1000;
+}
+#miniMonde { height:105px; pointer-events:none; }
+#cadreMonde .titre { padding:6px 10px; font-size:13px; font-weight:bold; }
+#listeOM {
+  position:absolute;
+  left:12px;
+  bottom:25px;
+  width:300px;
+  max-width:calc(100% - 24px);
+  max-height:60vh;
+  overflow:auto;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.25);
+  z-index:2100;
+  display:none;
+}
+#listeOM .entete { display:flex; justify-content:space-between; align-items:center; padding:10px 12px; border-bottom:1px solid #eee; font-weight:bold; position:sticky; top:0; background:white; }
+#listeOM .fermer { border:none; background:none; font-size:20px; cursor:pointer; line-height:1; }
+#listeOM .territoire { padding:8px 12px 2px; font-size:12px; color:#777; text-transform:uppercase; }
+#listeOM .ligne { display:flex; align-items:center; gap:10px; padding:6px 12px; font-size:14px; }
+#listeOM .ligne .rond { width:14px; height:14px; border-radius:50%; flex-shrink:0; }
+#listeOM .ligne small { color:#777; display:block; }
+@media (max-width:520px){ #cadreMonde { width:140px; bottom:80px; } #miniMonde { height:78px; } #listeOM { bottom:80px; } }
 </style>
 </head>
 
@@ -68,11 +129,26 @@ body { margin:0; font-family:Arial; }
   <div id="suggestions"></div>
 </div>
 
+<div id="filtres">
+  <button class="pastille" data-c="vert"><span class="rond" style="background:#22a55a"></span>Vert <span class="nb"></span></button>
+  <button class="pastille" data-c="orange"><span class="rond" style="background:#f39200"></span>Orange <span class="nb"></span></button>
+</div>
+
 <button id="voirAutour">👁️ Voir autour</button>
+
+<div id="cadreMonde" title="Voir la liste outre-mer">
+  <div id="miniMonde"></div>
+  <div class="titre">🌍 Outre-mer <span id="nbOM"></span></div>
+</div>
+
+<div id="listeOM">
+  <div class="entete">Outre-mer <button class="fermer" aria-label="Fermer">×</button></div>
+  <div id="contenuOM"></div>
+</div>
 
 <div id="map"></div>
 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
 
@@ -83,18 +159,35 @@ const initialZoom = isMobile ? 6 : 7;
 // carte
 const map = L.map('map').setView([46.6,2.5], initialZoom);
 
-// fond FR
-L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png').addTo(map);
+// fond de carte OpenStreetMap standard (plus lisible que osmfr)
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution:'&copy; OpenStreetMap',
+  maxZoom:19
+}).addTo(map);
+
+// couleurs disponibles (champ "Couleur" de lieux.json)
+const COULEURS = {
+  vert:   "#22a55a",
+  orange: "#f39200",
+  blanc:  "#ffffff"
+};
+function resoudreCouleur(c){
+  c = (c || "blanc").toString().trim().toLowerCase();
+  return COULEURS[c] || c; // accepte aussi un code #hex
+}
+
+// opacité des autres kartings quand on en sélectionne un
+const OPACITE_ESTOMPEE = 0.8;
 
 // icône kart
 function getKartIcon(color){
   return L.divIcon({
-    html:`<div style="background:${color};border-radius:50%;padding:6px;">
-      <img src="./kart.png" style="width:26px;">
+    html:`<div style="background:${color};border-radius:50%;padding:4px;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);">
+      <img src="./kart.png" style="width:18px;display:block;">
     </div>`,
     className:'',
-    iconSize:[40,40],
-    iconAnchor:[20,40]
+    iconSize:[30,30],
+    iconAnchor:[15,30]
   });
 }
 
@@ -137,18 +230,111 @@ async function afficherLieux(){
 
     const nom = (l.Nom || "").trim();
     const ville = (l.Ville || "").trim();
-    const color = (l.Couleur || "#ffffff").trim();
+    const color = resoudreCouleur(l.Couleur);
+    const cat = (l.Categorie || "").trim();
 
     const m = L.marker([lat,lng],{
       icon:getKartIcon(color)
     }).addTo(map);
 
-    m.bindTooltip(`<b>${nom}</b><br>${ville}`);
+    m.bindTooltip(`<b>${nom}</b><br>${ville}${cat ? `<br><small>${cat}</small>` : ""}`);
 
     m.nom = nom.toLowerCase();
     m.ville = ville.toLowerCase();
+    m.couleur = (l.Couleur || "blanc").toString().trim().toLowerCase();
+    m.cp = parseInt(l.CodePostal, 10) || 0;
+    m.nomAffiche = nom;
+    m.villeAffichee = ville;
 
     markers.push(m);
+  });
+
+  initOutreMer();
+
+  document.querySelectorAll(".pastille").forEach(p => {
+    p.querySelector(".nb").textContent =
+      "(" + markers.filter(m => m.couleur === p.dataset.c).length + ")";
+  });
+}
+
+// 🎨 filtre par couleur : aucune pastille active = tout afficher
+const filtresActifs = new Set();
+function estVisible(m){
+  return filtresActifs.size === 0 || filtresActifs.has(m.couleur);
+}
+function appliquerFiltre(){
+  markers.forEach(m => {
+    if(estVisible(m)){ if(!map.hasLayer(m)) m.addTo(map); }
+    else if(map.hasLayer(m)) map.removeLayer(m);
+  });
+}
+document.querySelectorAll(".pastille").forEach(p => {
+  p.onclick = () => {
+    const c = p.dataset.c;
+    if(filtresActifs.has(c)){ filtresActifs.delete(c); p.classList.remove("actif"); }
+    else { filtresActifs.add(c); p.classList.add("actif"); }
+    appliquerFiltre();
+    afficherListeOM();
+  };
+});
+
+// 🌍 outre-mer : mini-carte du monde + liste avec pastilles
+const TERRITOIRES = {
+  "971":"Guadeloupe", "972":"Martinique", "973":"Guyane", "974":"La Réunion",
+  "975":"Saint-Pierre-et-Miquelon", "976":"Mayotte", "986":"Wallis-et-Futuna",
+  "987":"Polynésie française", "988":"Nouvelle-Calédonie"
+};
+function territoire(m){ return TERRITOIRES[String(m.cp).slice(0,3)] || null; }
+function marqueursOM(){ return markers.filter(m => territoire(m)); }
+
+function initOutreMer(){
+  const om = marqueursOM();
+  const cadre = document.getElementById("cadreMonde");
+  if(om.length === 0){ cadre.style.display = "none"; return; }
+
+  const mini = L.map("miniMonde", {
+    zoomControl:false, attributionControl:false, dragging:false,
+    scrollWheelZoom:false, doubleClickZoom:false, boxZoom:false,
+    keyboard:false, touchZoom:false
+  }).setView([5, 45], 0);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:3 }).addTo(mini);
+  om.forEach(m => L.circleMarker(m.getLatLng(), {
+    radius:4, color:"#fff", weight:1, fillColor:resoudreCouleur(m.couleur), fillOpacity:1
+  }).addTo(mini));
+  L.circleMarker([46.6,2.5], { radius:3, color:"#333", weight:1, fillColor:"#333", fillOpacity:1 }).addTo(mini);
+
+  cadre.onclick = () => {
+    document.getElementById("listeOM").style.display = "block";
+    cadre.style.display = "none";
+  };
+  document.querySelector("#listeOM .fermer").onclick = () => {
+    document.getElementById("listeOM").style.display = "none";
+    cadre.style.display = "block";
+  };
+  afficherListeOM();
+}
+
+function afficherListeOM(){
+  const zone = document.getElementById("contenuOM");
+  if(!zone) return;
+  const visibles = marqueursOM().filter(estVisible);
+  document.getElementById("nbOM").textContent = "(" + visibles.length + ")";
+  const parTerr = {};
+  visibles.forEach(m => (parTerr[territoire(m)] = parTerr[territoire(m)] || []).push(m));
+  zone.innerHTML = "";
+  if(visibles.length === 0){ zone.innerHTML = '<div class="ligne">Aucun lieu pour ce filtre</div>'; return; }
+  Object.keys(parTerr).sort().forEach(t => {
+    const h = document.createElement("div");
+    h.className = "territoire"; h.textContent = t;
+    zone.appendChild(h);
+    parTerr[t].sort((a,b) => a.nomAffiche.localeCompare(b.nomAffiche)).forEach(m => {
+      const d = document.createElement("div");
+      d.className = "ligne";
+      d.innerHTML = `<span class="rond" style="background:${resoudreCouleur(m.couleur)}"></span><div><b></b><small></small></div>`;
+      d.querySelector("b").textContent = m.nomAffiche;
+      d.querySelector("small").textContent = m.villeAffichee;
+      zone.appendChild(d);
+    });
   });
 }
 
@@ -169,7 +355,7 @@ searchBox.addEventListener("input", function(){
   if(search.length < 2) return;
 
   const results = markers.filter(m =>
-    m.nom.includes(search) || m.ville.includes(search)
+    estVisible(m) && (m.nom.includes(search) || m.ville.includes(search))
   );
 
   results.slice(0,5).forEach(m=>{
@@ -185,7 +371,7 @@ searchBox.addEventListener("input", function(){
       map.setView(m.getLatLng(), isMobile ? 8 : 9);
 
       markers.forEach(x=>{
-        if(x !== m) x.setOpacity(0.4);
+        if(x !== m) x.setOpacity(OPACITE_ESTOMPEE);
       });
 
       halo = L.circle(m.getLatLng(),{
@@ -217,7 +403,7 @@ document.getElementById("voirAutour").onclick = function(){
       m.setOpacity(1);
       if(m._icon) m._icon.style.transform = "scale(1.2)";
     } else {
-      m.setOpacity(0.6);
+      m.setOpacity(OPACITE_ESTOMPEE);
       if(m._icon) m._icon.style.transform = "scale(1)";
     }
   });

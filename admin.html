@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Couleurs des kartings</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<style>
+body { margin:0; font-family:Arial, sans-serif; background:#f4f5f7; color:#222; }
+header { position:sticky; top:0; background:#fff; padding:14px 16px; box-shadow:0 2px 8px rgba(0,0,0,.08); z-index:10; }
+h1 { font-size:18px; margin:0 0 10px; }
+.barre { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+#filtre { flex:1; min-width:180px; padding:10px 14px; border:1px solid #ccc; border-radius:20px; }
+#telecharger { background:#0096ff; color:#fff; border:none; padding:10px 18px; border-radius:20px; cursor:pointer; font-weight:bold; }
+#telecharger:disabled { background:#9cc9ee; cursor:default; }
+#compteur { font-size:13px; color:#666; }
+.aide { font-size:13px; color:#555; margin:8px 0 0; line-height:1.4; }
+ul { list-style:none; margin:0; padding:12px 16px 40px; max-width:760px; }
+li { background:#fff; border-radius:10px; padding:10px 14px; margin-bottom:8px; display:flex; align-items:center; gap:12px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+li.modifie { outline:2px solid #0096ff; }
+.pastille { width:22px; height:22px; border-radius:50%; border:2px solid #ccc; flex-shrink:0; }
+.infos { flex:1; min-width:0; }
+.infos b { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.infos small { color:#777; }
+.choix { display:flex; gap:4px; }
+.choix button { border:1px solid #ccc; background:#fff; padding:6px 10px; border-radius:14px; cursor:pointer; font-size:13px; }
+.choix button.actif { color:#fff; border-color:transparent; }
+.choix button.actif[data-c="vert"] { background:#22a55a; }
+.choix button.actif[data-c="orange"] { background:#f39200; }
+.choix button.actif[data-c="blanc"] { background:#555; }
+@media (max-width:520px){ li { flex-wrap:wrap; } .choix { width:100%; } .choix button { flex:1; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Couleurs des kartings</h1>
+  <div class="barre">
+    <input id="filtre" type="text" placeholder="Filtrer par nom ou ville...">
+    <button id="telecharger" disabled>Télécharger lieux.json</button>
+    <span id="compteur"></span>
+  </div>
+  <p class="aide">Choisissez la couleur de chaque karting, cliquez sur « Télécharger lieux.json », puis remplacez le fichier <code>lieux.json</code> sur GitHub (Add file → Upload files). La carte est mise à jour en une à deux minutes.</p>
+</header>
+
+<ul id="liste"></ul>
+
+<script>
+const COULEURS = { vert:"#22a55a", orange:"#f39200", blanc:"#ffffff" };
+const LIBELLES = { vert:"Vert", orange:"Orange", blanc:"Aucune" };
+
+let lieux = [];
+let nbModifs = 0;
+
+function norm(c){
+  c = (c || "blanc").toString().trim().toLowerCase();
+  return COULEURS[c] ? c : "blanc";
+}
+
+function rendre(){
+  const f = document.getElementById("filtre").value.toLowerCase().trim();
+  const ul = document.getElementById("liste");
+  ul.innerHTML = "";
+  lieux.forEach((l, i) => {
+    const nom = (l.Nom || "").trim(), ville = (l.Ville || "").trim();
+    if(f && !nom.toLowerCase().includes(f) && !ville.toLowerCase().includes(f)) return;
+    const c = norm(l.Couleur);
+    const li = document.createElement("li");
+    if(l._modifie) li.className = "modifie";
+    li.innerHTML = `<span class="pastille" style="background:${COULEURS[c]}"></span>
+      <div class="infos"><b></b><small></small></div>
+      <div class="choix">${Object.keys(COULEURS).map(k =>
+        `<button data-c="${k}" class="${k===c?'actif':''}">${LIBELLES[k]}</button>`).join("")}</div>`;
+    li.querySelector("b").textContent = nom;
+    li.querySelector("small").textContent = `${ville} (${l.CodePostal || ""})`;
+    li.querySelectorAll(".choix button").forEach(btn => btn.onclick = () => {
+      const nouv = btn.dataset.c;
+      if(nouv === norm(l.Couleur)) return;
+      if(nouv === "blanc") delete l.Couleur; else l.Couleur = nouv;
+      if(!l._modifie){ l._modifie = true; nbModifs++; }
+      majCompteur();
+      rendre();
+    });
+    ul.appendChild(li);
+  });
+}
+
+function majCompteur(){
+  document.getElementById("compteur").textContent =
+    nbModifs ? `${nbModifs} karting(s) modifié(s)` : "";
+  document.getElementById("telecharger").disabled = nbModifs === 0;
+}
+
+document.getElementById("filtre").addEventListener("input", rendre);
+
+document.getElementById("telecharger").onclick = () => {
+  const propre = lieux.map(({_modifie, ...reste}) => reste);
+  const blob = new Blob([JSON.stringify(propre, null, 2)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "lieux.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+};
+
+window.addEventListener("beforeunload", e => { if(nbModifs){ e.preventDefault(); e.returnValue = ""; } });
+
+fetch("lieux.json", {cache:"no-store"})
+  .then(r => r.json())
+  .then(d => { lieux = d; rendre(); })
+  .catch(() => { document.getElementById("liste").innerHTML = "<li>Impossible de charger lieux.json</li>"; });
+</script>
+</body>
+</html>
