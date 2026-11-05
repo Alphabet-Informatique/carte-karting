@@ -159,10 +159,18 @@ const initialZoom = isMobile ? 6 : 7;
 // carte
 const map = L.map('map').setView([46.6,2.5], initialZoom);
 
-// fond de carte OpenStreetMap standard (plus lisible que osmfr)
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution:'&copy; OpenStreetMap',
-  maxZoom:19
+// fond de carte Esri gris clair : sans relief, noms de villes en surcouche
+const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+L.tileLayer(ESRI + 'World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution:'&copy; Esri, HERE, Garmin, &copy; OpenStreetMap',
+  maxNativeZoom:16, maxZoom:19
+}).addTo(map);
+// noms de villes au-dessus des kartings (sans bloquer les clics)
+map.createPane('noms');
+map.getPane('noms').style.zIndex = 650;
+map.getPane('noms').style.pointerEvents = 'none';
+L.tileLayer(ESRI + 'World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+  pane:'noms', maxNativeZoom:16, maxZoom:19
 }).addTo(map);
 
 // couleurs disponibles (champ "Couleur" de lieux.json)
@@ -297,7 +305,7 @@ function initOutreMer(){
     scrollWheelZoom:false, doubleClickZoom:false, boxZoom:false,
     keyboard:false, touchZoom:false
   }).setView([5, 45], 0);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom:3 }).addTo(mini);
+  L.tileLayer(ESRI + 'World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { maxZoom:3 }).addTo(mini);
   om.forEach(m => L.circleMarker(m.getLatLng(), {
     radius:4, color:"#fff", weight:1, fillColor:resoudreCouleur(m.couleur), fillOpacity:1
   }).addTo(mini));
