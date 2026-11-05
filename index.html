@@ -215,7 +215,7 @@ function resetView(){
 
 // JSON
 async function chargerLieux(){
-  const res = await fetch('lieux.json');
+  const res = await fetch('lieux.json', {cache:'no-store'}); // toujours la dernière version
   return await res.json();
 }
 
