@@ -27,6 +27,7 @@ li.modifie { outline:2px solid #0096ff; }
 .choix button.actif { color:#fff; border-color:transparent; }
 .choix button.actif[data-c="vert"] { background:#22a55a; }
 .choix button.actif[data-c="orange"] { background:#f39200; }
+.choix button.actif[data-c="jaune"] { background:#f5c400; color:#333; }
 .choix button.actif[data-c="blanc"] { background:#555; }
 @media (max-width:520px){ li { flex-wrap:wrap; } .choix { width:100%; } .choix button { flex:1; } }
 </style>
@@ -46,8 +47,8 @@ li.modifie { outline:2px solid #0096ff; }
 <ul id="liste"></ul>
 
 <script>
-const COULEURS = { vert:"#22a55a", orange:"#f39200", blanc:"#ffffff" };
-const LIBELLES = { vert:"Vert", orange:"Orange", blanc:"Aucune" };
+const COULEURS = { vert:"#22a55a", orange:"#f39200", jaune:"#f5c400", blanc:"#ffffff" };
+const LIBELLES = { vert:"Fait", orange:"À faire", jaune:"En attente", blanc:"Aucune" };
 
 let lieux = [];
 let nbModifs = 0;

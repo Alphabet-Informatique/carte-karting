@@ -67,6 +67,11 @@ body { margin:0; font-family:Arial; }
 }
 .pastille .rond { width:16px; height:16px; border-radius:50%; }
 .pastille.actif { border-color:#333; font-weight:bold; }
+@media (max-width:520px){
+  #filtres { gap:6px; }
+  .pastille { padding:6px 9px; font-size:12px; gap:5px; white-space:nowrap; }
+  .pastille .rond { width:12px; height:12px; }
+}
 
 #voirAutour {
   position:absolute;
@@ -130,8 +135,9 @@ body { margin:0; font-family:Arial; }
 </div>
 
 <div id="filtres">
-  <button class="pastille" data-c="vert"><span class="rond" style="background:#22a55a"></span>Vert <span class="nb"></span></button>
-  <button class="pastille" data-c="orange"><span class="rond" style="background:#f39200"></span>Orange <span class="nb"></span></button>
+  <button class="pastille" data-c="vert"><span class="rond" style="background:#22a55a"></span>Fait <span class="nb"></span></button>
+  <button class="pastille" data-c="orange"><span class="rond" style="background:#f39200"></span>À faire <span class="nb"></span></button>
+  <button class="pastille" data-c="jaune"><span class="rond" style="background:#f5c400"></span>En attente <span class="nb"></span></button>
 </div>
 
 <button id="voirAutour">👁️ Voir autour</button>
@@ -177,6 +183,7 @@ L.tileLayer(ESRI + 'World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
 const COULEURS = {
   vert:   "#22a55a",
   orange: "#f39200",
+  jaune:  "#f5c400",
   blanc:  "#ffffff"
 };
 function resoudreCouleur(c){
